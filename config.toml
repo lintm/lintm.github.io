@@ -1,8 +1,4 @@
-<<<<<<< HEAD
 baseURL = "https://tumulin.com"
-=======
-baseURL = "http://tumulin.com"
->>>>>>> be06828eb88855e3ef8338278f1b545e3e65f9f4
 languageCode = "en"
 DefaultContentLanguage = "en"
 title = "Website of Jane Doe"
