@@ -6,7 +6,7 @@
     <description>Recent content in Posts on 小小林者</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 26 Feb 2022 15:50:58 +0800</lastBuildDate><atom:link href="https://tumulin.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 26 Feb 2022 18:32:41 +0800</lastBuildDate><atom:link href="https://tumulin.com/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Theme preview</title>
       <link>https://tumulin.com/post/even-preview/</link>
@@ -14,6 +14,15 @@
       
       <guid>https://tumulin.com/post/even-preview/</guid>
       <description>Based on MarkdownPreview test.md. Markdown 1 2 3 4 5 6 7 8 # H1 ## H2 ### H3 #### H4 ##### H5 ###### H6 ### Duplicate Header ### Duplicate Header H1 H2 H3 H4 H5 H6 Duplicate Header Duplicate Header Paragraphs 1 2 3 4 This is a paragraph. I am still part of the paragraph. New paragraph. This is a paragraph. I am still part of the paragraph.</description>
+    </item>
+    
+    <item>
+      <title>百度网盘高速下载技巧</title>
+      <link>https://tumulin.com/post/%E7%99%BE%E5%BA%A6%E7%BD%91%E7%9B%98%E9%AB%98%E9%80%9F%E4%B8%8B%E8%BD%BD%E6%8A%80%E5%B7%A7/</link>
+      <pubDate>Sat, 26 Feb 2022 18:32:41 +0800</pubDate>
+      
+      <guid>https://tumulin.com/post/%E7%99%BE%E5%BA%A6%E7%BD%91%E7%9B%98%E9%AB%98%E9%80%9F%E4%B8%8B%E8%BD%BD%E6%8A%80%E5%B7%A7/</guid>
+      <description>chrome浏览器 + 百度网盘简易下载助手Greasy Fork+NeatDM，需要安装油猴插件管理器。 https://greasyfork.org/zh-CN/scripts/418182 百度网盘下载200k的限速，深受其害已</description>
     </item>
     
     <item>
