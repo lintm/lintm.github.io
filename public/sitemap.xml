@@ -177,6 +177,12 @@
   </url>
   
   <url>
+    <loc>https://tumulin.com/post/ceshi001/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://tumulin.com/post/ceshi_false/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
