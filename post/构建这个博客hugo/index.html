@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-cn">
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -16,7 +16,7 @@
 <meta name="apple-mobile-web-app-status-bar-style" content="#f8f5ec">
 
 
-<meta name="author" content="小小林者" /><meta name="description" content="梳理几个知识点 此类博客大部分是静态网页，采用hugo生成的都是index.html，github采用【账号名.github.io】创建的仓库" /><meta name="keywords" content="Hugo, theme, even" />
+<meta name="author" content="小小林者" /><meta name="description" content="梳理几个知识点 此类博客大部分是静态网页，采用hugo生成的都是index.html，github采用【账号名.github.io】创建的仓库" /><meta name="keywords" content="分享, 博客, 技术探索, 人生思考, 总结, 反思" />
 
 
 
@@ -49,7 +49,7 @@
 <meta itemprop="name" content="构建这个博客【hugo】">
 <meta itemprop="description" content="梳理几个知识点 此类博客大部分是静态网页，采用hugo生成的都是index.html，github采用【账号名.github.io】创建的仓库"><meta itemprop="datePublished" content="2022-02-26T18:32:41+08:00" />
 <meta itemprop="dateModified" content="2022-02-26T18:32:41+08:00" />
-<meta itemprop="wordCount" content="544">
+<meta itemprop="wordCount" content="621">
 <meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="构建这个博客【hugo】"/>
 <meta name="twitter:description" content="梳理几个知识点 此类博客大部分是静态网页，采用hugo生成的都是index.html，github采用【账号名.github.io】创建的仓库"/>
@@ -134,21 +134,21 @@
       <div class="post-meta">
         <span class="post-time"> 2022-02-26 </span>
         
-          <span class="more-meta"> 544 words </span>
-          <span class="more-meta"> 2 mins read </span>
+          <span class="more-meta"> 约 621 字 </span>
+          <span class="more-meta"> 预计阅读 2 分钟 </span>
         
       </div>
     </header>
 
     <div class="post-toc" id="post-toc">
-  <h2 class="post-toc-title">Contents</h2>
+  <h2 class="post-toc-title">文章目录</h2>
   <div class="post-toc-content always-active">
     <nav id="TableOfContents"></nav>
   </div>
 </div>
     <div class="post-content">
       <p>梳理几个知识点</p>
-<p>此类博客大部分是<strong>静态网页</strong>，采用hugo生成的都是index.html，github采用【账号名.github.io】创建的仓库，默认即启动server服务，可直接放入index.html，直接可以访问网页。</p>
+<p>此类博客大部分是<strong>静态网页</strong>，采用hugo生成的都是index.html，github采用【账号名.github.io】创建的仓库，默认即启动server服务，可直接放入index.html，直接可以访问网页。了解这个基础后，便于后续配置部署以及遇到问题的解决。</p>
 <p>hugo new site site_name 创建网站目录</p>
 <p>site_name├── archetypes ├── config.toml ├── content ├── data ├── layouts ├── static └── themes 常用目录用处如下</p>
 <table>
@@ -188,23 +188,28 @@
 <p>hugo new posts/first-post.md</p>
 <p>在content目录中会自动以archetypes/default.md为模板在content/posts目录下生成一篇名为first-post.md的文章草稿，需要把draft: true删除，否则上线不显示。</p>
 <p>hugo -D生成静态文件，放在目标public文件夹中；</p>
-<p>hugo server启动hugo 的web服务，可以在http://localhost:1313/访问生成的静态文件。</p>
-<p>修改后，没有问题，执行hugo -t even，其中even是主题名称，生成上线的版本。</p>
-<p>将public上传到lintm.github.io的main中</p>
+<ul>
+<li><code>hugo server</code> 开启本地调试，默认地址是：http://localhost:1313/。默认支持动态调试，修改配置文件、md 文档时都会自动即刻生效，直接在 html 页面上实时看到变化；</li>
+</ul>
+<p>修改后，没有问题，执行<strong>打包</strong> 为了部署到线上，需要将 Markdown 文件打包成 HTML 文件。打包命令如下，even 是主题名：</p>
+<blockquote>
+<p>hugo -t even</p>
+</blockquote>
+<p>将public中的文件全部上传到lintm.github.io的main中</p>
 <p><img src="C:%5CUsers%5Cadmin%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20220226155738039.png" alt="image-20220226155738039"></p>
-<p><img src="https://s2.loli.net/2022/02/26/XPH1qdxrTGochW2.png" alt="image-20220226155730336"></p>
-<p>在settings配置目录</p>
-<p><img src="https://s2.loli.net/2022/02/26/YFp6Oqj2eS9BRut.png" alt="image-20220226182906634"></p>
+<p><img src="https://s2.loli.net/2022/02/26/gp1U43H7lvmoszT.png" alt=""></p>
+<p>在settings配置目录为/root</p>
+<p><img src="https://s2.loli.net/2022/02/26/qV1MydQSBzowgxj.png" alt="image-20220226230838855"></p>
 
     </div>
 
     <div class="post-copyright">
   <p class="copyright-item">
-    <span class="item-title">Author</span>
+    <span class="item-title">文章作者</span>
     <span class="item-content">小小林者</span>
   </p>
   <p class="copyright-item">
-    <span class="item-title">LastMod</span>
+    <span class="item-title">上次更新</span>
     <span class="item-content">
         2022-02-26
         
@@ -219,11 +224,11 @@
         <a class="prev" href="/post/%E4%B8%BA%E4%BB%80%E4%B9%88%E4%BC%9A%E6%9C%89%E8%BF%99%E4%B8%AA%E5%8D%9A%E5%AE%A2/">
             <i class="iconfont icon-left"></i>
             <span class="prev-text nav-default">为什么会有这个博客</span>
-            <span class="prev-text nav-mobile">Prev</span>
+            <span class="prev-text nav-mobile">上一篇</span>
           </a>
         <a class="next" href="/post/%E7%99%BE%E5%BA%A6%E7%BD%91%E7%9B%98%E9%AB%98%E9%80%9F%E4%B8%8B%E8%BD%BD%E6%8A%80%E5%B7%A7/">
             <span class="next-text nav-default">百度网盘高速下载技巧</span>
-            <span class="next-text nav-mobile">Next</span>
+            <span class="next-text nav-mobile">下一篇</span>
             <i class="iconfont icon-right"></i>
           </a>
       </nav>
@@ -261,11 +266,11 @@
 
 <div class="copyright">
   <span class="power-by">
-    Powered by <a class="hexo-link" href="https://gohugo.io">Hugo</a>
+    由 <a class="hexo-link" href="https://gohugo.io">Hugo</a> 强力驱动
   </span>
   <span class="division">|</span>
   <span class="theme-info">
-    Theme - 
+    主题 - 
     <a class="theme-link" href="https://github.com/olOwOlo/hugo-theme-even">Even</a>
   </span>
 
@@ -273,7 +278,6 @@
 
   <span class="copyright-year">
     &copy; 
-    2017 - 
     2022<span class="heart"><i class="iconfont icon-heart"></i></span><span>小小林者</span>
   </span>
 </div>
@@ -292,6 +296,14 @@
 
 
 <script type="text/javascript" src="/js/main.min.c99b103c33d1539acf3025e1913697534542c4a5aa5af0ccc20475ed2863603b.js"></script>
+  <script type="text/javascript">
+    window.MathJax = {
+      tex: {
+        inlineMath: [['$','$'], ['\\(','\\)']],
+        }
+    };
+  </script>
+  <script async src="https://cdn.jsdelivr.net/npm/mathjax@3.0.5/es5/tex-mml-chtml.js" integrity="sha256-HGLuEfFcsUJGhvB8cQ8nr0gai9EucOOaIxFw7qxmd+w=" crossorigin="anonymous"></script>
 
 
 
