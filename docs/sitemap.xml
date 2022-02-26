@@ -2,15 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://tumulin.com/post/</loc>
-    <lastmod>2022-02-26T08:07:53+08:00</lastmod>
-  </url><url>
-    <loc>https://tumulin.com/post/testltm/</loc>
-    <lastmod>2022-02-26T08:07:53+08:00</lastmod>
-  </url><url>
-    <loc>https://tumulin.com/</loc>
-    <lastmod>2022-02-26T08:07:53+08:00</lastmod>
-  </url><url>
     <loc>https://tumulin.com/english/</loc>
     <lastmod>2021-08-15T00:00:00+00:00</lastmod>
   </url><url>
@@ -24,6 +15,9 @@
     <lastmod>2021-08-15T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://tumulin.com/series/series-setup/</loc>
+    <lastmod>2021-08-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://tumulin.com/</loc>
     <lastmod>2021-08-15T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://tumulin.com/english/post/series-part-1/</loc>
