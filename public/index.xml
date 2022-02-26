@@ -6,18 +6,7 @@
     <description>Recent content on Website of Jane Doe</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 26 Feb 2022 08:07:53 +0800</lastBuildDate><atom:link href="https://tumulin.com/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>TestLTM</title>
-      <link>https://tumulin.com/post/testltm/</link>
-      <pubDate>Sat, 26 Feb 2022 08:07:53 +0800</pubDate>
-      
-      <guid>https://tumulin.com/post/testltm/</guid>
-      
-        <description></description>
-      
-    </item>
-    
+    <lastBuildDate>Sun, 15 Aug 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://tumulin.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Series Part 2</title>
       <link>https://tumulin.com/english/post/series-part-2/</link>
@@ -26,40 +15,6 @@
       <guid>https://tumulin.com/english/post/series-part-2/</guid>
       
         <description>&lt;p&gt;In this second part of the series we&amp;rsquo;ll show you where to find the full series&lt;/p&gt;</description>
-      
-    </item>
-    
-    <item>
-      <title>Series Part 1</title>
-      <link>https://tumulin.com/english/post/series-part-1/</link>
-      <pubDate>Sat, 14 Aug 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://tumulin.com/english/post/series-part-1/</guid>
-      
-        <description>&lt;p&gt;In this first part of the series we&amp;rsquo;ll show you how to create a series&lt;/p&gt;</description>
-      
-    </item>
-    
-    <item>
-      <title>Redirect</title>
-      <link>https://tumulin.com/english/post/redirect/</link>
-      <pubDate>Sun, 20 Jun 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://tumulin.com/english/post/redirect/</guid>
-      
-        <description>Forwarding to gohugo using redirectUrl
-      </description>
-      
-    </item>
-    
-    <item>
-      <title>The Figure Shortcode</title>
-      <link>https://tumulin.com/english/post/figure-shortcode/</link>
-      <pubDate>Sat, 13 Mar 2021 21:47:41 +0000</pubDate>
-      
-      <guid>https://tumulin.com/english/post/figure-shortcode/</guid>
-      
-        <description>Hugo has figure shortcode built-in, so you can easily add figure captions or hyperlink rel attributes to images.</description>
       
     </item>
     
@@ -86,28 +41,6 @@
     </item>
     
     <item>
-      <title>Markdown Syntax Guide</title>
-      <link>https://tumulin.com/english/post/markdown-syntax/</link>
-      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://tumulin.com/english/post/markdown-syntax/</guid>
-      
-        <description>&lt;p&gt;This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.&lt;/p&gt;</description>
-      
-    </item>
-    
-    <item>
-      <title>Placeholder Text</title>
-      <link>https://tumulin.com/english/post/placeholder-text/</link>
-      <pubDate>Sat, 09 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://tumulin.com/english/post/placeholder-text/</guid>
-      
-        <description>&lt;p&gt;Lorem est tota propiore conpellat pectoribus de pectora summo.&lt;/p&gt;</description>
-      
-    </item>
-    
-    <item>
       <title>Contact</title>
       <link>https://tumulin.com/english/contact/</link>
       <pubDate>Fri, 08 Mar 2019 00:00:00 +0000</pubDate>
@@ -115,17 +48,6 @@
       <guid>https://tumulin.com/english/contact/</guid>
       
         <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Math Typesetting</title>
-      <link>https://tumulin.com/english/post/math-typesetting/</link>
-      <pubDate>Fri, 08 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://tumulin.com/english/post/math-typesetting/</guid>
-      
-        <description>&lt;p&gt;Mathematical notation in a Hugo project can be enabled by using third party JavaScript libraries.&lt;/p&gt;</description>
       
     </item>
     
@@ -141,17 +63,6 @@
     </item>
     
     <item>
-      <title>Emoji Support</title>
-      <link>https://tumulin.com/english/post/emoji-support/</link>
-      <pubDate>Tue, 05 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://tumulin.com/english/post/emoji-support/</guid>
-      
-        <description>&lt;p&gt;Emoji can be enabled in a Hugo project in a number of ways.&lt;/p&gt;</description>
-      
-    </item>
-    
-    <item>
       <title>نموذج عربي</title>
       <link>https://tumulin.com/arabic/post/arabic_example/</link>
       <pubDate>Tue, 05 Mar 2019 00:00:00 +0000</pubDate>
@@ -159,17 +70,6 @@
       <guid>https://tumulin.com/arabic/post/arabic_example/</guid>
       
         <description>من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق.</description>
-      
-    </item>
-    
-    <item>
-      <title>Guide to Thumbnails in Hugo</title>
-      <link>https://tumulin.com/english/post/image-test/</link>
-      <pubDate>Mon, 04 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://tumulin.com/english/post/image-test/</guid>
-      
-        <description>Thumbnails can be enabled easily by setting the thumbnail parameter in the frontmatter to an image such as &amp;quot;images/landscape.</description>
       
     </item>
     
@@ -204,6 +104,55 @@
       
         <description>Legal Disclosure Information in accordance with the applicable law
 Jane Doe</description>
+      
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://tumulin.com/english/post/%E4%B8%BA%E4%BB%80%E4%B9%88%E4%BC%9A%E6%9C%89%E8%BF%99%E4%B8%AA%E5%8D%9A%E5%AE%A2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://tumulin.com/english/post/%E4%B8%BA%E4%BB%80%E4%B9%88%E4%BC%9A%E6%9C%89%E8%BF%99%E4%B8%AA%E5%8D%9A%E5%AE%A2/</guid>
+      
+        <description>为什么会有这个博客 ##缘由：
+某日，看到采用下载工具可以高速下载百度网盘，实践后简单写成网页，发布在jianshu上面，随手分享给两个好友，不一会，好友反馈访问404了。真不可思议，打开后查看是文章被锁定了。
+###第一条：现在我们很多平台都有审查机制，导致我们的分享体验很不友好，于是就想整一个独立的平台。
+###第二个原因是：翻看QQ空间，能够回忆很多当前的瞬间，如果没有这些点滴的说说，好像我们能够回想的东西不太多。
+###第三点是：分享自己工作、生活的思考，抛砖引玉，希望可以结交志同道合的朋友，交流分享成长！</description>
+      
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://tumulin.com/english/post/%E6%9E%84%E5%BB%BA%E8%BF%99%E4%B8%AA%E5%8D%9A%E5%AE%A2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://tumulin.com/english/post/%E6%9E%84%E5%BB%BA%E8%BF%99%E4%B8%AA%E5%8D%9A%E5%AE%A2/</guid>
+      
+        <description>#构建这个博客
+##1.注册github，创建仓库【注册名.github.io】，设置token
+##2.下载安装Gridea，配置主题，远程，同步OK
+其中远程的基础配置，在v0.9.2一开始我保存不了，后面安装了v0.9.0，功能正常，后再升级v0.9.2。然后升级功能差异大，都乱套了，建议下回升级前一定要做好备份！！
+上面这两点已经可以实现写博客了。为最好的体验，做两部分优化：
+一是，网页格式采用MarkDown，上传的图片采用PicGo+Sm.ms；
+二是，国内访问github不稳定，采用域名+CDN实现更好的体验；
+下载安装Git，Gridea同步的工具。
+https://git-scm.com/downloads
+##3.PicGo+sm.ms</description>
+      
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://tumulin.com/english/post/%E7%99%BE%E5%BA%A6%E7%BD%91%E7%9B%98%E9%AB%98%E9%80%9F%E4%B8%8B%E8%BD%BD%E6%8A%80%E5%B7%A7/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://tumulin.com/english/post/%E7%99%BE%E5%BA%A6%E7%BD%91%E7%9B%98%E9%AB%98%E9%80%9F%E4%B8%8B%E8%BD%BD%E6%8A%80%E5%B7%A7/</guid>
+      
+        <description>百度网盘高速下载技巧 chrome浏览器 + 百度网盘简易下载助手Greasy Fork+NeatDM，需要安装油猴插件管理器。
+https://greasyfork.org/zh-CN/scripts/418182
+百度网盘下载200k的限速，深受其害已久，采用上述进行下载，速度起飞！
+网上推荐的IDM要破解，要收费，麻烦，采用NeatDM免费，效果一样</description>
       
     </item>
     
