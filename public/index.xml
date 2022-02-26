@@ -6,7 +6,7 @@
     <description>Recent content on 小小林者</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 10 Jul 2018 00:00:00 +0800</lastBuildDate><atom:link href="https://tumulin.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 26 Feb 2022 11:32:39 +0800</lastBuildDate><atom:link href="https://tumulin.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Theme preview</title>
       <link>https://tumulin.com/post/even-preview/</link>
@@ -25,6 +25,15 @@
       <description>Hugo is a static site engine written in Go.
 It makes use of a variety of open source projects including:
  Cobra Viper J Walter Weatherman Cast  Learn more and contribute on GitHub.</description>
+    </item>
+    
+    <item>
+      <title>构建这个博客2</title>
+      <link>https://tumulin.com/post/%E6%9E%84%E5%BB%BA%E8%BF%99%E4%B8%AA%E5%8D%9A%E5%AE%A22/</link>
+      <pubDate>Sat, 26 Feb 2022 11:32:39 +0800</pubDate>
+      
+      <guid>https://tumulin.com/post/%E6%9E%84%E5%BB%BA%E8%BF%99%E4%B8%AA%E5%8D%9A%E5%AE%A22/</guid>
+      <description>##1.注册github，创建仓库【注册名.github.io】，设置token ##2.下载安装Gridea，配置主题，远程，同步OK 其中远</description>
     </item>
     
     <item>
