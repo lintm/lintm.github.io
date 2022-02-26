@@ -93,6 +93,13 @@
   </url>
   
   <url>
+    <loc>https://tumulin.com/post/ceshi/</loc>
+    <lastmod>2017-12-27T23:15:53-05:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://tumulin.com/post/chinese-preview/</loc>
     <lastmod>2017-08-30T01:37:56+08:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -165,12 +172,6 @@
   <url>
     <loc>https://tumulin.com/tags/tag-5/</loc>
     <lastmod>2018-11-05T16:01:23+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://tumulin.com/post/ceshi/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
