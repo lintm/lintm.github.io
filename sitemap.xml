@@ -2,6 +2,62 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://tumulin.com/categories/</loc>
+    <lastmod>2022-02-27T08:36:34+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://tumulin.com/post/</loc>
+    <lastmod>2022-02-27T08:36:34+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://tumulin.com/tags/</loc>
+    <lastmod>2022-02-27T08:36:34+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://tumulin.com/</loc>
+    <lastmod>2022-02-27T08:36:34+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://tumulin.com/categories/%E6%8A%80%E6%9C%AF/</loc>
+    <lastmod>2022-02-27T08:36:34+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://tumulin.com/tags/%E6%8A%80%E6%9C%AF%E6%A0%87%E7%AD%BE/</loc>
+    <lastmod>2022-02-27T08:36:34+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://tumulin.com/tags/%E6%B5%8B%E8%AF%95/</loc>
+    <lastmod>2022-02-27T08:36:34+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://tumulin.com/post/%E6%B5%8B%E8%AF%95/</loc>
+    <lastmod>2022-02-27T08:36:34+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://tumulin.com/about/</loc>
     <lastmod>2022-02-26T21:38:52+08:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -10,20 +66,6 @@
   
   <url>
     <loc>https://tumulin.com/post/gridea&#43;github%E6%9E%84%E5%BB%BA%E5%8D%9A%E5%AE%A2%E5%9F%BA%E7%A1%80/</loc>
-    <lastmod>2022-02-26T21:34:54+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://tumulin.com/post/</loc>
-    <lastmod>2022-02-26T21:34:54+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://tumulin.com/</loc>
     <lastmod>2022-02-26T21:34:54+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -46,18 +88,6 @@
   <url>
     <loc>https://tumulin.com/post/%E7%99%BE%E5%BA%A6%E7%BD%91%E7%9B%98%E9%AB%98%E9%80%9F%E4%B8%8B%E8%BD%BD%E6%8A%80%E5%B7%A7/</loc>
     <lastmod>2022-02-26T18:32:41+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://tumulin.com/categories/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://tumulin.com/tags/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>

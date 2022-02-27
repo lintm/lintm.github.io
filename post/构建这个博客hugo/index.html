@@ -49,7 +49,7 @@
 <meta itemprop="name" content="构建这个博客【hugo】">
 <meta itemprop="description" content="梳理几个知识点 此类博客大部分是静态网页，采用hugo生成的都是index.html，github采用【账号名.github.io】创建的仓库"><meta itemprop="datePublished" content="2022-02-26T18:32:41+08:00" />
 <meta itemprop="dateModified" content="2022-02-26T18:32:41+08:00" />
-<meta itemprop="wordCount" content="621">
+<meta itemprop="wordCount" content="1137">
 <meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="构建这个博客【hugo】"/>
 <meta name="twitter:description" content="梳理几个知识点 此类博客大部分是静态网页，采用hugo生成的都是index.html，github采用【账号名.github.io】创建的仓库"/>
@@ -134,8 +134,8 @@
       <div class="post-meta">
         <span class="post-time"> 2022-02-26 </span>
         
-          <span class="more-meta"> 约 621 字 </span>
-          <span class="more-meta"> 预计阅读 2 分钟 </span>
+          <span class="more-meta"> 约 1137 字 </span>
+          <span class="more-meta"> 预计阅读 3 分钟 </span>
         
       </div>
     </header>
@@ -185,7 +185,7 @@
 </tr>
 </tbody>
 </table>
-<p>hugo new posts/first-post.md</p>
+<p>hugo new post/first-post.md</p>
 <p>在content目录中会自动以archetypes/default.md为模板在content/posts目录下生成一篇名为first-post.md的文章草稿，需要把draft: true删除，否则上线不显示。</p>
 <p>hugo -D生成静态文件，放在目标public文件夹中；</p>
 <ul>
@@ -195,11 +195,31 @@
 <blockquote>
 <p>hugo -t even</p>
 </blockquote>
+<p>？<strong>注意</strong>：每次自己本地的修改，需要先执行<code>hugo</code>命令来更新public下的内容，再进入public目录把修改push到GitHub上，才能保证互联网访问的内容是更新后的，否则修改只会停留在本地。</p>
+<p><strong>hugo?  hugo -D?  hugo -d docs?  hugo -t enen几者区别是？？</strong></p>
+<p>本地调试，保存md文件后，即可在网页上即刻看到变化，不需要执行以上命令。</p>
 <p>将public中的文件全部上传到lintm.github.io的main中</p>
 <p><img src="C:%5CUsers%5Cadmin%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20220226155738039.png" alt="image-20220226155738039"></p>
 <p><img src="https://s2.loli.net/2022/02/26/gp1U43H7lvmoszT.png" alt=""></p>
 <p>在settings配置目录为/root</p>
 <p><img src="https://s2.loli.net/2022/02/26/qV1MydQSBzowgxj.png" alt="image-20220226230838855"></p>
+<p>##添加评论功能</p>
+<p><a href="https://utteranc.es/">utterances</a> 是一款基于 github issues 的评论系统，非常清爽。</p>
+<ol>
+<li>
+<p>安装utterances：点击https://github.com/apps/utterances，按照提示操作，把上面存放博客的repo的权限给utterances。操作完成后，在username.github.io这个repo的Settings-&gt;Integrations里可以看到utterances。</p>
+<p><img src="https://s2.loli.net/2022/02/27/Wo5Mtbl31imHPcv.png" alt="image-20220227081850332"></p>
+</li>
+<li>
+<p>修改博客的全局配置config.toml里已有的<code>params.utterances</code>这2个配置项。</p>
+<p><code>params.utterances</code> 为GitHub的信息。</p>
+<p><code>[params.utterances]       # https://utteranc.es/ owner = &quot;github账号&quot;              # Your GitHub ID repo = &quot;github账号.github.io&quot;               # The repo to store comments</code></p>
+</li>
+<li>
+<p>重新部署博客，就可以在文章下面看到评论区了，正如本篇文章最下面的评论区一样。</p>
+<p>执行<code>hugo</code>后开户服务<code>hugo server</code></p>
+</li>
+</ol>
 
     </div>
 
@@ -240,27 +260,21 @@
   
 
   
+    <script src="https://utteranc.es/client.js"
+            repo="lintm/lintm.github.io"
+            issue-term="pathname"
+            theme="github-light"
+            crossorigin="anonymous"
+            async>
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="https://github.com/utterance">comments powered by utterances.</a></noscript>
 
       </div>
     </main>
 
     <footer id="footer" class="footer">
       <div class="social-links">
-      <a href="mailto:your@email.com" class="iconfont icon-email" title="email"></a>
-      <a href="http://localhost:1313" class="iconfont icon-stack-overflow" title="stack-overflow"></a>
-      <a href="http://localhost:1313" class="iconfont icon-twitter" title="twitter"></a>
-      <a href="http://localhost:1313" class="iconfont icon-facebook" title="facebook"></a>
-      <a href="http://localhost:1313" class="iconfont icon-linkedin" title="linkedin"></a>
-      <a href="http://localhost:1313" class="iconfont icon-google" title="google"></a>
-      <a href="http://localhost:1313" class="iconfont icon-github" title="github"></a>
-      <a href="http://localhost:1313" class="iconfont icon-weibo" title="weibo"></a>
-      <a href="http://localhost:1313" class="iconfont icon-zhihu" title="zhihu"></a>
-      <a href="http://localhost:1313" class="iconfont icon-douban" title="douban"></a>
-      <a href="http://localhost:1313" class="iconfont icon-pocket" title="pocket"></a>
-      <a href="http://localhost:1313" class="iconfont icon-tumblr" title="tumblr"></a>
-      <a href="http://localhost:1313" class="iconfont icon-instagram" title="instagram"></a>
-      <a href="http://localhost:1313" class="iconfont icon-gitlab" title="gitlab"></a>
-      <a href="http://localhost:1313" class="iconfont icon-bilibili" title="bilibili"></a>
+      <a href="mailto:lintmuu@163.com" class="iconfont icon-email" title="email"></a>
   <a href="https://tumulin.com/index.xml" type="application/rss+xml" class="iconfont icon-rss" title="rss"></a>
 </div>
 
