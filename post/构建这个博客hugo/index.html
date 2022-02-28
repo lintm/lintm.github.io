@@ -49,7 +49,7 @@
 <meta itemprop="name" content="构建这个博客【hugo】">
 <meta itemprop="description" content="梳理几个知识点 此类博客大部分是静态网页，采用hugo生成的都是index.html，github采用【账号名.github.io】创建的仓库"><meta itemprop="datePublished" content="2022-02-26T18:32:41+08:00" />
 <meta itemprop="dateModified" content="2022-02-28T19:36:34+08:00" />
-<meta itemprop="wordCount" content="1212">
+<meta itemprop="wordCount" content="1411">
 <meta itemprop="keywords" content="博客,部署," /><meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="构建这个博客【hugo】"/>
 <meta name="twitter:description" content="梳理几个知识点 此类博客大部分是静态网页，采用hugo生成的都是index.html，github采用【账号名.github.io】创建的仓库"/>
@@ -136,7 +136,7 @@
         <div class="post-category">
             <a href="/categories/%E6%8A%80%E6%9C%AF/"> 技术 </a>
             </div>
-          <span class="more-meta"> 约 1212 字 </span>
+          <span class="more-meta"> 约 1411 字 </span>
           <span class="more-meta"> 预计阅读 3 分钟 </span>
         
       </div>
@@ -145,13 +145,27 @@
     <div class="post-toc" id="post-toc">
   <h2 class="post-toc-title">文章目录</h2>
   <div class="post-toc-content always-active">
-    <nav id="TableOfContents"></nav>
+    <nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#梳理几个知识点">梳理几个知识点</a></li>
+        <li><a href="#1-下载安装hugo">1. 下载安装hugo</a></li>
+        <li><a href="#2编译">2.编译</a></li>
+        <li><a href="#3添加主题修改配置文件">3.添加主题，修改配置文件</a></li>
+        <li><a href="#4上传github">4.上传github</a></li>
+        <li><a href="#5添加评论功能">5.添加评论功能</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
   </div>
 </div>
     <div class="post-content">
-      <p>梳理几个知识点</p>
+      <h2 id="梳理几个知识点">梳理几个知识点</h2>
 <p>此类博客大部分是<strong>静态网页</strong>，采用hugo生成的都是index.html，github采用【账号名.github.io】创建的仓库，默认即启动server服务，可直接放入index.html，直接可以访问网页。了解这个基础后，便于后续配置部署以及遇到问题的解决。</p>
-<p>##下载安装hugo</p>
+<h2 id="1-下载安装hugo">1. 下载安装hugo</h2>
+<p>下载安装hugo后，在电脑 &ndash;》属性》高级设置》系统环境，新建，文件目录复制添加环境变量。完成后在cmd 输入hugo version有显示版本信息。</p>
 <p>hugo new site site_name 创建网站目录</p>
 <p>site_name├── archetypes ├── config.toml ├── content ├── data ├── layouts ├── static └── themes 常用目录用处如下</p>
 <table>
@@ -189,7 +203,8 @@
 </tbody>
 </table>
 <p>hugo new post/first-post.md</p>
-<p>在content目录中会自动以archetypes/default.md为模板在content/posts目录下生成一篇名为first-post.md的文章草稿，需要把draft: true删除，否则上线不显示。</p>
+<p>在content目录中会自动以archetypes/default.md为模板在content/posts目录下生成一篇名为first-post.md的文章草稿，需要把draft: true删除，否则上线不显示。<strong>需要针对archetypes/default.md模板进行修改</strong></p>
+<h2 id="2编译">2.编译</h2>
 <p>hugo -D生成静态文件，放在目标public文件夹中；</p>
 <ul>
 <li><code>hugo server</code> 开启本地调试，默认地址是：http://localhost:1313/。默认支持动态调试，修改配置文件、md 文档时都会自动即刻生效，直接在 html 页面上实时看到变化；</li>
@@ -201,13 +216,17 @@
 <p>？<strong>注意</strong>：每次自己本地的修改，需要先执行<code>hugo</code>命令来更新public下的内容，再进入public目录把修改push到GitHub上，才能保证互联网访问的内容是更新后的，否则修改只会停留在本地。</p>
 <p><strong>hugo?  hugo -D?  hugo -d docs?  hugo -t enen几者区别是？？</strong></p>
 <p>本地调试，保存md文件后，即可在网页上即刻看到变化，不需要执行以上命令。</p>
+<h2 id="3添加主题修改配置文件">3.添加主题，修改配置文件</h2>
+<p>挑选even主题，下载，复制到themes文件夹中，并将文件名称修改成even。将exampleSite下的文件复制到网站目录下</p>
+<p><img src="https://s2.loli.net/2022/02/28/efH4tcnCJVIXuWi.png" alt="image-20220228195813837"></p>
+<h2 id="4上传github">4.上传github</h2>
 <p>将public中的文件全部上传到lintm.github.io的main中</p>
 <p><strong>注意：上传的文件，需要5分钟左右才会展示变化，有缓存！可以Ctrl +F5 强制刷新，也可以在浏览器地址加上?suiyizifuchuan</strong></p>
 <p><img src="C:%5CUsers%5Cadmin%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20220226155738039.png" alt="image-20220226155738039"></p>
 <p><img src="https://s2.loli.net/2022/02/26/gp1U43H7lvmoszT.png" alt=""></p>
 <p>在settings配置目录为/root</p>
 <p><img src="https://s2.loli.net/2022/02/26/qV1MydQSBzowgxj.png" alt="image-20220226230838855"></p>
-<p>##添加评论功能</p>
+<h2 id="5添加评论功能">5.添加评论功能</h2>
 <p><a href="https://utteranc.es/">utterances</a> 是一款基于 github issues 的评论系统，非常清爽。</p>
 <ol>
 <li>
