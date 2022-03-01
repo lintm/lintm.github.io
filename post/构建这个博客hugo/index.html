@@ -49,7 +49,7 @@
 <meta itemprop="name" content="构建这个博客【hugo】">
 <meta itemprop="description" content="梳理几个知识点 此类博客大部分是静态网页，采用hugo生成的都是index.html，github采用【账号名.github.io】创建的仓库"><meta itemprop="datePublished" content="2022-02-26T18:32:41+08:00" />
 <meta itemprop="dateModified" content="2022-02-28T19:36:34+08:00" />
-<meta itemprop="wordCount" content="1411">
+<meta itemprop="wordCount" content="1427">
 <meta itemprop="keywords" content="博客,部署," /><meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="构建这个博客【hugo】"/>
 <meta name="twitter:description" content="梳理几个知识点 此类博客大部分是静态网页，采用hugo生成的都是index.html，github采用【账号名.github.io】创建的仓库"/>
@@ -136,7 +136,7 @@
         <div class="post-category">
             <a href="/categories/%E6%8A%80%E6%9C%AF/"> 技术 </a>
             </div>
-          <span class="more-meta"> 约 1411 字 </span>
+          <span class="more-meta"> 约 1427 字 </span>
           <span class="more-meta"> 预计阅读 3 分钟 </span>
         
       </div>
@@ -155,6 +155,7 @@
         <li><a href="#3添加主题修改配置文件">3.添加主题，修改配置文件</a></li>
         <li><a href="#4上传github">4.上传github</a></li>
         <li><a href="#5添加评论功能">5.添加评论功能</a></li>
+        <li><a href="#6一键部署">6.一键部署</a></li>
       </ul>
     </li>
   </ul>
@@ -207,15 +208,14 @@
 <h2 id="2编译">2.编译</h2>
 <p>hugo -D生成静态文件，放在目标public文件夹中；</p>
 <ul>
-<li><code>hugo server</code> 开启本地调试，默认地址是：http://localhost:1313/。默认支持动态调试，修改配置文件、md 文档时都会自动即刻生效，直接在 html 页面上实时看到变化；</li>
+<li><code>hugo server</code> 开启本地调试，默认地址是：http://localhost:1313/。默认支持动态调试，修改配置文件、md 文档时都会自动即刻生效，直接在 html 页面上实时看到变化；本地调试，保存md文件后，即可在网页上即刻看到变化，不需要执行以上命令。</li>
 </ul>
 <p>修改后，没有问题，执行<strong>打包</strong> 为了部署到线上，需要将 Markdown 文件打包成 HTML 文件。打包命令如下，even 是主题名：</p>
 <blockquote>
 <p>hugo -t even</p>
 </blockquote>
-<p>？<strong>注意</strong>：每次自己本地的修改，需要先执行<code>hugo</code>命令来更新public下的内容，再进入public目录把修改push到GitHub上，才能保证互联网访问的内容是更新后的，否则修改只会停留在本地。</p>
 <p><strong>hugo?  hugo -D?  hugo -d docs?  hugo -t enen几者区别是？？</strong></p>
-<p>本地调试，保存md文件后，即可在网页上即刻看到变化，不需要执行以上命令。</p>
+<p><strong>注意</strong>：每次自己本地的修改后，需要先执行<code>hugo</code>命令来更新public下的内容，再进入public目录进行push到GitHub上，才能保证互联网访问的内容是更新后的，否则修改只会停留在本地。</p>
 <h2 id="3添加主题修改配置文件">3.添加主题，修改配置文件</h2>
 <p>挑选even主题，下载，复制到themes文件夹中，并将文件名称修改成even。将exampleSite下的文件复制到网站目录下</p>
 <p><img src="https://s2.loli.net/2022/02/28/efH4tcnCJVIXuWi.png" alt="image-20220228195813837"></p>
@@ -243,6 +243,19 @@
 <p>执行<code>hugo</code>后开户服务<code>hugo server</code></p>
 </li>
 </ol>
+<h2 id="6一键部署">6.一键部署</h2>
+<p><img src="https://s2.loli.net/2022/03/01/1yofVt9wcTIHmEN.png" alt="image-20220301143631784"></p>
+<p><img src="https://s2.loli.net/2022/03/01/iSRxJIQepqNTaVt.png" alt="image-20220301143805682"></p>
+<p>测试配置正确：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="n">ssh</span> <span class="o">-</span><span class="n">T</span> <span class="n">git</span><span class="nd">@github.com</span>
+</code></pre></td></tr></table>
+</div>
+</div><p><img src="https://s2.loli.net/2022/03/01/JFo9GIsaukDvLxl.png" alt="image-20220301145806225"></p>
 
     </div>
 
