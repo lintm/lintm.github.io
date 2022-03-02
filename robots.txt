@@ -1,2 +1,2 @@
 User-agent: *
-Sitemap: https://tumulin.com/sitemap.xml
+Sitemap: https://lintm.github.io/sitemap.xml

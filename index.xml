@@ -2,71 +2,80 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>小小林者</title>
-    <link>https://tumulin.com/</link>
+    <link>https://lintm.github.io/</link>
     <description>Recent content on 小小林者</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Mon, 28 Feb 2022 19:09:38 +0800</lastBuildDate><atom:link href="https://tumulin.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 01 Mar 2022 19:10:38 +0800</lastBuildDate><atom:link href="https://lintm.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>《财富自由之路》李笑来  读书笔记</title>
+      <link>https://lintm.github.io/post/%E8%B4%A2%E5%AF%8C%E8%87%AA%E7%94%B1%E4%B9%8B%E8%B7%AF%E6%9D%8E%E7%AC%91%E6%9D%A5-%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/</link>
+      <pubDate>Tue, 01 Mar 2022 19:10:38 +0800</pubDate>
+      
+      <guid>https://lintm.github.io/post/%E8%B4%A2%E5%AF%8C%E8%87%AA%E7%94%B1%E4%B9%8B%E8%B7%AF%E6%9D%8E%E7%AC%91%E6%9D%A5-%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/</guid>
+      <description>推荐指数：5星，阅读难度：2星 优化操作系统 这个概念，很明确，人就是一个系统，身体、器官是硬件，头脑、思维、性格、价值观是软件系统。 系统要完善</description>
+    </item>
+    
     <item>
       <title>《心若菩提》曹德旺著 读书心得</title>
-      <link>https://tumulin.com/post/%E5%BF%83%E8%8B%A5%E8%8F%A9%E6%8F%90%E6%9B%B9%E5%BE%B7%E6%97%BA%E8%91%97-%E8%AF%BB%E4%B9%A6%E5%BF%83%E5%BE%97/</link>
+      <link>https://lintm.github.io/post/%E5%BF%83%E8%8B%A5%E8%8F%A9%E6%8F%90%E6%9B%B9%E5%BE%B7%E6%97%BA%E8%91%97-%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/</link>
       <pubDate>Mon, 28 Feb 2022 19:09:38 +0800</pubDate>
       
-      <guid>https://tumulin.com/post/%E5%BF%83%E8%8B%A5%E8%8F%A9%E6%8F%90%E6%9B%B9%E5%BE%B7%E6%97%BA%E8%91%97-%E8%AF%BB%E4%B9%A6%E5%BF%83%E5%BE%97/</guid>
+      <guid>https://lintm.github.io/post/%E5%BF%83%E8%8B%A5%E8%8F%A9%E6%8F%90%E6%9B%B9%E5%BE%B7%E6%97%BA%E8%91%97-%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/</guid>
       <description>原本计划春节读几本书，虽然2022年的春节外出少，放假时间也不短，可惜并没有落实读书这件事。 回到公司，快速进入状态，然后把书本捡了起来。同时</description>
     </item>
     
     <item>
       <title>MarkDown学习</title>
-      <link>https://tumulin.com/post/markdown/</link>
+      <link>https://lintm.github.io/post/markdown/</link>
       <pubDate>Sun, 27 Feb 2022 08:36:34 +0800</pubDate>
       
-      <guid>https://tumulin.com/post/markdown/</guid>
+      <guid>https://lintm.github.io/post/markdown/</guid>
       <description>MarkDown学习 1.java代码 1 2 3 // 尝试写代码块 hava a try 输入```加上java即可,回车 2.标题 1 2 3 4 5 6 7 // 注意# 后面有空格！！！</description>
     </item>
     
     <item>
       <title>关于</title>
-      <link>https://tumulin.com/about/</link>
+      <link>https://lintm.github.io/about/</link>
       <pubDate>Sat, 26 Feb 2022 21:38:52 +0800</pubDate>
       
-      <guid>https://tumulin.com/about/</guid>
+      <guid>https://lintm.github.io/about/</guid>
       <description>欢迎来到我的小站呀，很高兴遇见你！🤝 🏠 关于本站 👨‍💻 博主是谁 毕业于985 工作于HW、网宿 目前在创业 在这里纪录生活、工作的点滴，与志同道合的人</description>
     </item>
     
     <item>
       <title>Gridea&#43;github构建博客【基础】</title>
-      <link>https://tumulin.com/post/gridea&#43;github%E6%9E%84%E5%BB%BA%E5%8D%9A%E5%AE%A2%E5%9F%BA%E7%A1%80/</link>
+      <link>https://lintm.github.io/post/gridea&#43;github%E6%9E%84%E5%BB%BA%E5%8D%9A%E5%AE%A2%E5%9F%BA%E7%A1%80/</link>
       <pubDate>Sat, 26 Feb 2022 21:34:54 +0800</pubDate>
       
-      <guid>https://tumulin.com/post/gridea&#43;github%E6%9E%84%E5%BB%BA%E5%8D%9A%E5%AE%A2%E5%9F%BA%E7%A1%80/</guid>
+      <guid>https://lintm.github.io/post/gridea&#43;github%E6%9E%84%E5%BB%BA%E5%8D%9A%E5%AE%A2%E5%9F%BA%E7%A1%80/</guid>
       <description>总结： 优点：配置简单，容易上手； 缺点：很久没有更新，软件不稳定；文章生成不稳定，可能不会及时更新，有bug；v0.9.2第一次使用不能保存，</description>
     </item>
     
     <item>
       <title>为什么会有这个博客</title>
-      <link>https://tumulin.com/post/%E4%B8%BA%E4%BB%80%E4%B9%88%E4%BC%9A%E6%9C%89%E8%BF%99%E4%B8%AA%E5%8D%9A%E5%AE%A2/</link>
+      <link>https://lintm.github.io/post/%E4%B8%BA%E4%BB%80%E4%B9%88%E4%BC%9A%E6%9C%89%E8%BF%99%E4%B8%AA%E5%8D%9A%E5%AE%A2/</link>
       <pubDate>Sat, 26 Feb 2022 21:26:08 +0800</pubDate>
       
-      <guid>https://tumulin.com/post/%E4%B8%BA%E4%BB%80%E4%B9%88%E4%BC%9A%E6%9C%89%E8%BF%99%E4%B8%AA%E5%8D%9A%E5%AE%A2/</guid>
+      <guid>https://lintm.github.io/post/%E4%B8%BA%E4%BB%80%E4%B9%88%E4%BC%9A%E6%9C%89%E8%BF%99%E4%B8%AA%E5%8D%9A%E5%AE%A2/</guid>
       <description>缘由： 某日，看到采用下载工具可以高速下载百度网盘，实践后简单写成网页，发布在jianshu上面，随手分享给两个好友，不一会，好友反馈访问40</description>
     </item>
     
     <item>
       <title>构建这个博客【hugo】</title>
-      <link>https://tumulin.com/post/%E6%9E%84%E5%BB%BA%E8%BF%99%E4%B8%AA%E5%8D%9A%E5%AE%A2hugo/</link>
+      <link>https://lintm.github.io/post/%E6%9E%84%E5%BB%BA%E8%BF%99%E4%B8%AA%E5%8D%9A%E5%AE%A2hugo/</link>
       <pubDate>Sat, 26 Feb 2022 18:32:41 +0800</pubDate>
       
-      <guid>https://tumulin.com/post/%E6%9E%84%E5%BB%BA%E8%BF%99%E4%B8%AA%E5%8D%9A%E5%AE%A2hugo/</guid>
+      <guid>https://lintm.github.io/post/%E6%9E%84%E5%BB%BA%E8%BF%99%E4%B8%AA%E5%8D%9A%E5%AE%A2hugo/</guid>
       <description>梳理几个知识点 此类博客大部分是静态网页，采用hugo生成的都是index.html，github采用【账号名.github.io】创建的仓库</description>
     </item>
     
     <item>
       <title>百度网盘高速下载技巧</title>
-      <link>https://tumulin.com/post/%E7%99%BE%E5%BA%A6%E7%BD%91%E7%9B%98%E9%AB%98%E9%80%9F%E4%B8%8B%E8%BD%BD%E6%8A%80%E5%B7%A7/</link>
+      <link>https://lintm.github.io/post/%E7%99%BE%E5%BA%A6%E7%BD%91%E7%9B%98%E9%AB%98%E9%80%9F%E4%B8%8B%E8%BD%BD%E6%8A%80%E5%B7%A7/</link>
       <pubDate>Sat, 26 Feb 2022 18:32:41 +0800</pubDate>
       
-      <guid>https://tumulin.com/post/%E7%99%BE%E5%BA%A6%E7%BD%91%E7%9B%98%E9%AB%98%E9%80%9F%E4%B8%8B%E8%BD%BD%E6%8A%80%E5%B7%A7/</guid>
+      <guid>https://lintm.github.io/post/%E7%99%BE%E5%BA%A6%E7%BD%91%E7%9B%98%E9%AB%98%E9%80%9F%E4%B8%8B%E8%BD%BD%E6%8A%80%E5%B7%A7/</guid>
       <description>1.问题 百度网盘下载200k的限速，深受其害已久，采用本方法进行下载，速度起飞！ 2.chrome浏览器 + 百度网盘简易下载助手Greasy Fork+NeatDM 说</description>
     </item>
     
