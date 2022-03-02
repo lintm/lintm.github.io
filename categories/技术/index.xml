@@ -2,44 +2,44 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>技术 on 小小林者</title>
-    <link>https://tumulin.com/categories/%E6%8A%80%E6%9C%AF/</link>
+    <link>https://lintm.github.io/categories/%E6%8A%80%E6%9C%AF/</link>
     <description>Recent content in 技术 on 小小林者</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sun, 27 Feb 2022 08:36:34 +0800</lastBuildDate><atom:link href="https://tumulin.com/categories/%E6%8A%80%E6%9C%AF/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 27 Feb 2022 08:36:34 +0800</lastBuildDate><atom:link href="https://lintm.github.io/categories/%E6%8A%80%E6%9C%AF/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>MarkDown学习</title>
-      <link>https://tumulin.com/post/markdown/</link>
+      <link>https://lintm.github.io/post/markdown/</link>
       <pubDate>Sun, 27 Feb 2022 08:36:34 +0800</pubDate>
       
-      <guid>https://tumulin.com/post/markdown/</guid>
+      <guid>https://lintm.github.io/post/markdown/</guid>
       <description>MarkDown学习 1.java代码 1 2 3 // 尝试写代码块 hava a try 输入```加上java即可,回车 2.标题 1 2 3 4 5 6 7 // 注意# 后面有空格！！！</description>
     </item>
     
     <item>
       <title>Gridea&#43;github构建博客【基础】</title>
-      <link>https://tumulin.com/post/gridea&#43;github%E6%9E%84%E5%BB%BA%E5%8D%9A%E5%AE%A2%E5%9F%BA%E7%A1%80/</link>
+      <link>https://lintm.github.io/post/gridea&#43;github%E6%9E%84%E5%BB%BA%E5%8D%9A%E5%AE%A2%E5%9F%BA%E7%A1%80/</link>
       <pubDate>Sat, 26 Feb 2022 21:34:54 +0800</pubDate>
       
-      <guid>https://tumulin.com/post/gridea&#43;github%E6%9E%84%E5%BB%BA%E5%8D%9A%E5%AE%A2%E5%9F%BA%E7%A1%80/</guid>
+      <guid>https://lintm.github.io/post/gridea&#43;github%E6%9E%84%E5%BB%BA%E5%8D%9A%E5%AE%A2%E5%9F%BA%E7%A1%80/</guid>
       <description>总结： 优点：配置简单，容易上手； 缺点：很久没有更新，软件不稳定；文章生成不稳定，可能不会及时更新，有bug；v0.9.2第一次使用不能保存，</description>
     </item>
     
     <item>
       <title>构建这个博客【hugo】</title>
-      <link>https://tumulin.com/post/%E6%9E%84%E5%BB%BA%E8%BF%99%E4%B8%AA%E5%8D%9A%E5%AE%A2hugo/</link>
+      <link>https://lintm.github.io/post/%E6%9E%84%E5%BB%BA%E8%BF%99%E4%B8%AA%E5%8D%9A%E5%AE%A2hugo/</link>
       <pubDate>Sat, 26 Feb 2022 18:32:41 +0800</pubDate>
       
-      <guid>https://tumulin.com/post/%E6%9E%84%E5%BB%BA%E8%BF%99%E4%B8%AA%E5%8D%9A%E5%AE%A2hugo/</guid>
+      <guid>https://lintm.github.io/post/%E6%9E%84%E5%BB%BA%E8%BF%99%E4%B8%AA%E5%8D%9A%E5%AE%A2hugo/</guid>
       <description>梳理几个知识点 此类博客大部分是静态网页，采用hugo生成的都是index.html，github采用【账号名.github.io】创建的仓库</description>
     </item>
     
     <item>
       <title>百度网盘高速下载技巧</title>
-      <link>https://tumulin.com/post/%E7%99%BE%E5%BA%A6%E7%BD%91%E7%9B%98%E9%AB%98%E9%80%9F%E4%B8%8B%E8%BD%BD%E6%8A%80%E5%B7%A7/</link>
+      <link>https://lintm.github.io/post/%E7%99%BE%E5%BA%A6%E7%BD%91%E7%9B%98%E9%AB%98%E9%80%9F%E4%B8%8B%E8%BD%BD%E6%8A%80%E5%B7%A7/</link>
       <pubDate>Sat, 26 Feb 2022 18:32:41 +0800</pubDate>
       
-      <guid>https://tumulin.com/post/%E7%99%BE%E5%BA%A6%E7%BD%91%E7%9B%98%E9%AB%98%E9%80%9F%E4%B8%8B%E8%BD%BD%E6%8A%80%E5%B7%A7/</guid>
+      <guid>https://lintm.github.io/post/%E7%99%BE%E5%BA%A6%E7%BD%91%E7%9B%98%E9%AB%98%E9%80%9F%E4%B8%8B%E8%BD%BD%E6%8A%80%E5%B7%A7/</guid>
       <description>1.问题 百度网盘下载200k的限速，深受其害已久，采用本方法进行下载，速度起飞！ 2.chrome浏览器 + 百度网盘简易下载助手Greasy Fork+NeatDM 说</description>
     </item>
     
