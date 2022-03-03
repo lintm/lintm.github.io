@@ -49,7 +49,7 @@
 <meta itemprop="name" content="构建这个博客【hugo】">
 <meta itemprop="description" content="梳理几个知识点 此类博客大部分是静态网页，采用hugo生成的都是index.html，github采用【账号名.github.io】创建的仓库"><meta itemprop="datePublished" content="2022-02-26T18:32:41+08:00" />
 <meta itemprop="dateModified" content="2022-02-28T19:36:34+08:00" />
-<meta itemprop="wordCount" content="1427">
+<meta itemprop="wordCount" content="1498">
 <meta itemprop="keywords" content="博客,部署," /><meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="构建这个博客【hugo】"/>
 <meta name="twitter:description" content="梳理几个知识点 此类博客大部分是静态网页，采用hugo生成的都是index.html，github采用【账号名.github.io】创建的仓库"/>
@@ -136,7 +136,7 @@
         <div class="post-category">
             <a href="/categories/%E6%8A%80%E6%9C%AF/"> 技术 </a>
             </div>
-          <span class="more-meta"> 约 1427 字 </span>
+          <span class="more-meta"> 约 1498 字 </span>
           <span class="more-meta"> 预计阅读 3 分钟 </span>
         
       </div>
@@ -165,6 +165,19 @@
     <div class="post-content">
       <h2 id="梳理几个知识点">梳理几个知识点</h2>
 <p>此类博客大部分是<strong>静态网页</strong>，采用hugo生成的都是index.html，github采用【账号名.github.io】创建的仓库，默认即启动server服务，可直接放入index.html，直接可以访问网页。了解这个基础后，便于后续配置部署以及遇到问题的解决。</p>
+<p>网站会在浏览器、CDN进行缓存，上传网页文件后，需要等待5分钟左右刷新，生效，也可以采用如下几种方式实现：</p>
+<ul>
+<li>
+<p>Ctrl + F5</p>
+</li>
+<li>
+<p>访问网址后加?字母数字随意</p>
+</li>
+<li>
+<p>F12,NetWork,Disable cache</p>
+<p><img src="https://s2.loli.net/2022/03/03/zG6s7YV8UfegvCa.png" alt="image-20220303134040656"></p>
+</li>
+</ul>
 <h2 id="1-下载安装hugo">1. 下载安装hugo</h2>
 <p>下载安装hugo后，在电脑 &ndash;》属性》高级设置》系统环境，新建，文件目录复制添加环境变量。完成后在cmd 输入hugo version有显示版本信息。</p>
 <p>hugo new site site_name 创建网站目录</p>
