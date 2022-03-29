@@ -27,15 +27,6 @@
     
     <item>
       <title>构建这个博客【hugo】</title>
-      <link>https://lintm.github.io/post/%E6%9E%84%E5%BB%BA%E8%BF%99%E4%B8%AA%E5%8D%9A%E5%AE%A2hugo-%E6%9D%A5%E8%87%AAdesktop-v00qot0%E7%9A%84%E5%86%B2%E7%AA%81%E5%89%AF%E6%9C%AC-2022-03-03_22.22.24/</link>
-      <pubDate>Sat, 26 Feb 2022 18:32:41 +0800</pubDate>
-      
-      <guid>https://lintm.github.io/post/%E6%9E%84%E5%BB%BA%E8%BF%99%E4%B8%AA%E5%8D%9A%E5%AE%A2hugo-%E6%9D%A5%E8%87%AAdesktop-v00qot0%E7%9A%84%E5%86%B2%E7%AA%81%E5%89%AF%E6%9C%AC-2022-03-03_22.22.24/</guid>
-      <description>梳理几个知识点 此类博客大部分是静态网页，采用hugo生成的都是index.html，github采用【账号名.github.io】创建的仓库</description>
-    </item>
-    
-    <item>
-      <title>构建这个博客【hugo】</title>
       <link>https://lintm.github.io/post/%E6%9E%84%E5%BB%BA%E8%BF%99%E4%B8%AA%E5%8D%9A%E5%AE%A2hugo/</link>
       <pubDate>Sat, 26 Feb 2022 18:32:41 +0800</pubDate>
       

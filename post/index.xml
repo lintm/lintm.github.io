@@ -6,14 +6,23 @@
     <description>Recent content in Posts on 小小林者</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Thu, 17 Mar 2022 12:46:35 +0800</lastBuildDate><atom:link href="https://lintm.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 26 Mar 2022 21:26:08 +0800</lastBuildDate><atom:link href="https://lintm.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Linux常用命令</title>
+      <link>https://lintm.github.io/post/linux%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/</link>
+      <pubDate>Sat, 26 Mar 2022 21:26:08 +0800</pubDate>
+      
+      <guid>https://lintm.github.io/post/linux%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/</guid>
+      <description>Linux常用命令 文件目录指令 pwd：查看当前工作目录的绝对路径 ls：显示当前目录所有文件 基本语法：ls [选项] [目录或文件] 常见选项： -a</description>
+    </item>
+    
     <item>
       <title>突破磁链0资源，实现较高速度下载</title>
       <link>https://lintm.github.io/post/%E7%AA%81%E7%A0%B4%E7%A3%81%E9%93%BE0%E8%B5%84%E6%BA%90%E5%AE%9E%E7%8E%B0%E8%BE%83%E9%AB%98%E9%80%9F%E5%BA%A6%E4%B8%8B%E8%BD%BD/</link>
       <pubDate>Thu, 17 Mar 2022 12:46:35 +0800</pubDate>
       
       <guid>https://lintm.github.io/post/%E7%AA%81%E7%A0%B4%E7%A3%81%E9%93%BE0%E8%B5%84%E6%BA%90%E5%AE%9E%E7%8E%B0%E8%BE%83%E9%AB%98%E9%80%9F%E5%BA%A6%E4%B8%8B%E8%BD%BD/</guid>
-      <description>#突破磁链0资源，实现较高速度下载 ###1、chrome浏览器安装插件&amp;ndash;迅雷云盘【油猴】 迅雷云盘 ###2、利用迅雷将磁链接添加到</description>
+      <description>突破磁链0资源，实现较高速度下载 1、chrome浏览器安装插件&amp;ndash;迅雷云盘【油猴】 迅雷云盘 2、利用迅雷将磁链接添加到云盘 采用本地文</description>
     </item>
     
     <item>
@@ -72,15 +81,6 @@
     
     <item>
       <title>构建这个博客【hugo】</title>
-      <link>https://lintm.github.io/post/%E6%9E%84%E5%BB%BA%E8%BF%99%E4%B8%AA%E5%8D%9A%E5%AE%A2hugo-%E6%9D%A5%E8%87%AAdesktop-v00qot0%E7%9A%84%E5%86%B2%E7%AA%81%E5%89%AF%E6%9C%AC-2022-03-03_22.22.24/</link>
-      <pubDate>Sat, 26 Feb 2022 18:32:41 +0800</pubDate>
-      
-      <guid>https://lintm.github.io/post/%E6%9E%84%E5%BB%BA%E8%BF%99%E4%B8%AA%E5%8D%9A%E5%AE%A2hugo-%E6%9D%A5%E8%87%AAdesktop-v00qot0%E7%9A%84%E5%86%B2%E7%AA%81%E5%89%AF%E6%9C%AC-2022-03-03_22.22.24/</guid>
-      <description>梳理几个知识点 此类博客大部分是静态网页，采用hugo生成的都是index.html，github采用【账号名.github.io】创建的仓库</description>
-    </item>
-    
-    <item>
-      <title>构建这个博客【hugo】</title>
       <link>https://lintm.github.io/post/%E6%9E%84%E5%BB%BA%E8%BF%99%E4%B8%AA%E5%8D%9A%E5%AE%A2hugo/</link>
       <pubDate>Sat, 26 Feb 2022 18:32:41 +0800</pubDate>
       
@@ -95,15 +95,6 @@
       
       <guid>https://lintm.github.io/post/%E7%99%BE%E5%BA%A6%E7%BD%91%E7%9B%98%E9%AB%98%E9%80%9F%E4%B8%8B%E8%BD%BD%E6%8A%80%E5%B7%A7/</guid>
       <description>1.问题 百度网盘下载200k的限速，深受其害已久，采用本方法进行下载，速度起飞！ 2.chrome浏览器 + 百度网盘简易下载助手Greasy Fork+NeatDM 说</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://lintm.github.io/post/linux%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://lintm.github.io/post/linux%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/</guid>
-      <description>Linux常用命令 文件目录指令 pwd：查看当前工作目录的绝对路径 ls：显示当前目录所有文件 基本语法：ls [选项] [目录或文件] 常见选项： -a</description>
     </item>
     
   </channel>
