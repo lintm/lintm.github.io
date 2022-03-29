@@ -26,7 +26,7 @@
 <meta name="generator" content="Hugo 0.92.2 with theme even" />
 
 
-<link rel="canonical" href="https://lintm.github.io/post/%E6%9E%84%E5%BB%BA%E8%BF%99%E4%B8%AA%E5%8D%9A%E5%AE%A2hugo/" />
+<link rel="canonical" href="https://lintm.github.io/post/%E6%9E%84%E5%BB%BA%E8%BF%99%E4%B8%AA%E5%8D%9A%E5%AE%A2hugo-%E6%9D%A5%E8%87%AAdesktop-v00qot0%E7%9A%84%E5%86%B2%E7%AA%81%E5%89%AF%E6%9C%AC-2022-03-03_22.22.24/" />
 <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -42,14 +42,14 @@
 <meta property="og:title" content="构建这个博客【hugo】" />
 <meta property="og:description" content="梳理几个知识点 此类博客大部分是静态网页，采用hugo生成的都是index.html，github采用【账号名.github.io】创建的仓库" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://lintm.github.io/post/%E6%9E%84%E5%BB%BA%E8%BF%99%E4%B8%AA%E5%8D%9A%E5%AE%A2hugo/" /><meta property="article:section" content="post" />
+<meta property="og:url" content="https://lintm.github.io/post/%E6%9E%84%E5%BB%BA%E8%BF%99%E4%B8%AA%E5%8D%9A%E5%AE%A2hugo-%E6%9D%A5%E8%87%AAdesktop-v00qot0%E7%9A%84%E5%86%B2%E7%AA%81%E5%89%AF%E6%9C%AC-2022-03-03_22.22.24/" /><meta property="article:section" content="post" />
 <meta property="article:published_time" content="2022-02-26T18:32:41+08:00" />
 <meta property="article:modified_time" content="2022-02-28T19:36:34+08:00" />
 
 <meta itemprop="name" content="构建这个博客【hugo】">
 <meta itemprop="description" content="梳理几个知识点 此类博客大部分是静态网页，采用hugo生成的都是index.html，github采用【账号名.github.io】创建的仓库"><meta itemprop="datePublished" content="2022-02-26T18:32:41+08:00" />
 <meta itemprop="dateModified" content="2022-02-28T19:36:34+08:00" />
-<meta itemprop="wordCount" content="1498">
+<meta itemprop="wordCount" content="1457">
 <meta itemprop="keywords" content="博客,部署," /><meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="构建这个博客【hugo】"/>
 <meta name="twitter:description" content="梳理几个知识点 此类博客大部分是静态网页，采用hugo生成的都是index.html，github采用【账号名.github.io】创建的仓库"/>
@@ -136,7 +136,7 @@
         <div class="post-category">
             <a href="/categories/%E6%8A%80%E6%9C%AF/"> 技术 </a>
             </div>
-          <span class="more-meta"> 约 1498 字 </span>
+          <span class="more-meta"> 约 1457 字 </span>
           <span class="more-meta"> 预计阅读 3 分钟 </span>
         
       </div>
@@ -165,19 +165,6 @@
     <div class="post-content">
       <h2 id="梳理几个知识点">梳理几个知识点</h2>
 <p>此类博客大部分是<strong>静态网页</strong>，采用hugo生成的都是index.html，github采用【账号名.github.io】创建的仓库，默认即启动server服务，可直接放入index.html，直接可以访问网页。了解这个基础后，便于后续配置部署以及遇到问题的解决。</p>
-<p>网站会在浏览器、CDN进行缓存，上传网页文件后，需要等待5分钟左右刷新，生效，也可以采用如下几种方式实现：</p>
-<ul>
-<li>
-<p>Ctrl + F5</p>
-</li>
-<li>
-<p>访问网址后加?字母数字随意</p>
-</li>
-<li>
-<p>F12,NetWork,Disable cache</p>
-<p><img src="https://s2.loli.net/2022/03/03/zG6s7YV8UfegvCa.png" alt="image-20220303134040656"></p>
-</li>
-</ul>
 <h2 id="1-下载安装hugo">1. 下载安装hugo</h2>
 <p>下载安装hugo后，在电脑 &ndash;》属性》高级设置》系统环境，新建，文件目录复制添加环境变量。完成后在cmd 输入hugo version有显示版本信息。</p>
 <p>hugo new site site_name 创建网站目录</p>
@@ -257,6 +244,9 @@
 </li>
 </ol>
 <h2 id="6一键部署">6.一键部署</h2>
+<p><strong>设置Git的user name和email</strong></p>
+<p>git config &ndash;global user.name &ldquo;xxx&rdquo;</p>
+<p>git config &ndash;global user.email &ldquo;<a href="mailto:xxx@xxx.com">xxx@xxx.com</a>&rdquo;</p>
 <p><img src="https://s2.loli.net/2022/03/01/1yofVt9wcTIHmEN.png" alt="image-20220301143631784"></p>
 <p><img src="https://s2.loli.net/2022/03/01/iSRxJIQepqNTaVt.png" alt="image-20220301143805682"></p>
 <p>测试配置正确：</p>
@@ -293,13 +283,13 @@
           <a href="/tags/%E9%83%A8%E7%BD%B2/">部署</a>
           </div>
       <nav class="post-nav">
-        <a class="prev" href="/post/%E6%9E%84%E5%BB%BA%E8%BF%99%E4%B8%AA%E5%8D%9A%E5%AE%A2hugo-%E6%9D%A5%E8%87%AAdesktop-v00qot0%E7%9A%84%E5%86%B2%E7%AA%81%E5%89%AF%E6%9C%AC-2022-03-03_22.22.24/">
+        <a class="prev" href="/post/%E4%B8%BA%E4%BB%80%E4%B9%88%E4%BC%9A%E6%9C%89%E8%BF%99%E4%B8%AA%E5%8D%9A%E5%AE%A2/">
             <i class="iconfont icon-left"></i>
-            <span class="prev-text nav-default">构建这个博客【hugo】</span>
+            <span class="prev-text nav-default">为什么会有这个博客</span>
             <span class="prev-text nav-mobile">上一篇</span>
           </a>
-        <a class="next" href="/post/%E7%99%BE%E5%BA%A6%E7%BD%91%E7%9B%98%E9%AB%98%E9%80%9F%E4%B8%8B%E8%BD%BD%E6%8A%80%E5%B7%A7/">
-            <span class="next-text nav-default">百度网盘高速下载技巧</span>
+        <a class="next" href="/post/%E6%9E%84%E5%BB%BA%E8%BF%99%E4%B8%AA%E5%8D%9A%E5%AE%A2hugo/">
+            <span class="next-text nav-default">构建这个博客【hugo】</span>
             <span class="next-text nav-mobile">下一篇</span>
             <i class="iconfont icon-right"></i>
           </a>
