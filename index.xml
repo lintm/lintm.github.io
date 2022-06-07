@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>小小林者</title>
+    <link>https://lintm.github.io/</link>
+    <description>Recent content on 小小林者</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Mon, 09 May 2022 16:04:28 +0800</lastBuildDate><atom:link href="https://lintm.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>学习体会</title>
+      <link>https://lintm.github.io/post/%E5%AD%A6%E4%B9%A0%E4%BD%93%E4%BC%9A/</link>
+      <pubDate>Mon, 09 May 2022 16:04:28 +0800</pubDate>
+      
+      <guid>https://lintm.github.io/post/%E5%AD%A6%E4%B9%A0%E4%BD%93%E4%BC%9A/</guid>
+      <description>学习体会 从零入门一个新的领域，20小时就够了 from:https://mp.weixin.qq.com/s/fXPUfnW8_9x-FT8fUbdFEw 道和术 https://mp.weixin.qq.com/s/aycXz4JJdVx-5HugPnfiZw 精通一个领域，10000小时理论，成为专家</description>
+    </item>
+    
+    <item>
+      <title>《写给大家看的设计书》[美]Robin  读书笔记</title>
+      <link>https://lintm.github.io/post/%E5%86%99%E7%BB%99%E5%A4%A7%E5%AE%B6%E7%9C%8B%E7%9A%84%E8%AE%BE%E8%AE%A1%E4%B9%A6%E7%BE%8Erobin-%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/</link>
+      <pubDate>Wed, 27 Apr 2022 14:05:24 +0800</pubDate>
+      
+      <guid>https://lintm.github.io/post/%E5%86%99%E7%BB%99%E5%A4%A7%E5%AE%B6%E7%9C%8B%E7%9A%84%E8%AE%BE%E8%AE%A1%E4%B9%A6%E7%BE%8Erobin-%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/</guid>
+      <description>4大基本原则: 对比Contrast：元素【字体、颜色、大小、线宽、形状、空间】 重复Repetition 对齐Alignment &amp;ndash;&amp;</description>
+    </item>
+    
+    <item>
+      <title>《硅谷钢铁侠：埃隆·马斯克的冒险人生》  读书笔记</title>
+      <link>https://lintm.github.io/post/%E7%A1%85%E8%B0%B7%E9%92%A2%E9%93%81%E4%BE%A0%E5%9F%83%E9%9A%86%E9%A9%AC%E6%96%AF%E5%85%8B%E7%9A%84%E5%86%92%E9%99%A9%E4%BA%BA%E7%94%9F-%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/</link>
+      <pubDate>Fri, 15 Apr 2022 19:01:10 +0800</pubDate>
+      
+      <guid>https://lintm.github.io/post/%E7%A1%85%E8%B0%B7%E9%92%A2%E9%93%81%E4%BE%A0%E5%9F%83%E9%9A%86%E9%A9%AC%E6%96%AF%E5%85%8B%E7%9A%84%E5%86%92%E9%99%A9%E4%BA%BA%E7%94%9F-%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/</guid>
+      <description>《硅谷钢铁侠：埃隆·马斯克的冒险人生》&amp;ndash; 读书笔记，推荐指数4 马斯克的故事，已经流传很久了，这本书2016.4出版，年前购买，这会</description>
+    </item>
+    
+    <item>
+      <title>Linux常用命令</title>
+      <link>https://lintm.github.io/post/linux%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/</link>
+      <pubDate>Sat, 26 Mar 2022 21:26:08 +0800</pubDate>
+      
+      <guid>https://lintm.github.io/post/linux%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/</guid>
+      <description>Linux常用命令 文件目录指令 pwd：查看当前工作目录的绝对路径 ls：显示当前目录所有文件 基本语法：ls [选项] [目录或文件] 常见选项： -a</description>
+    </item>
+    
+    <item>
+      <title>突破磁链0资源，实现较高速度下载</title>
+      <link>https://lintm.github.io/post/%E7%AA%81%E7%A0%B4%E7%A3%81%E9%93%BE0%E8%B5%84%E6%BA%90%E5%AE%9E%E7%8E%B0%E8%BE%83%E9%AB%98%E9%80%9F%E5%BA%A6%E4%B8%8B%E8%BD%BD/</link>
+      <pubDate>Thu, 17 Mar 2022 12:46:35 +0800</pubDate>
+      
+      <guid>https://lintm.github.io/post/%E7%AA%81%E7%A0%B4%E7%A3%81%E9%93%BE0%E8%B5%84%E6%BA%90%E5%AE%9E%E7%8E%B0%E8%BE%83%E9%AB%98%E9%80%9F%E5%BA%A6%E4%B8%8B%E8%BD%BD/</guid>
+      <description>突破磁链0资源，实现较高速度下载 1、chrome浏览器安装插件&amp;ndash;迅雷云盘【油猴】 迅雷云盘 2、利用迅雷将磁链接添加到云盘 采用本地文</description>
+    </item>
+    
+    <item>
+      <title>购买外汇</title>
+      <link>https://lintm.github.io/post/%E8%B4%AD%E4%B9%B0%E5%A4%96%E6%B1%87/</link>
+      <pubDate>Tue, 08 Mar 2022 09:29:59 +0800</pubDate>
+      
+      <guid>https://lintm.github.io/post/%E8%B4%AD%E4%B9%B0%E5%A4%96%E6%B1%87/</guid>
+      <description>俄乌战争有阵子了，看到朋友圈有人购买卢布，想着也玩一把试试。工商银行或者中国银行， 直接搜索卢布，在外汇购里面就有，用途选择，推荐，买的时候选</description>
+    </item>
+    
+    <item>
+      <title>《财富自由之路》李笑来--读书笔记</title>
+      <link>https://lintm.github.io/post/%E8%B4%A2%E5%AF%8C%E8%87%AA%E7%94%B1%E4%B9%8B%E8%B7%AF%E6%9D%8E%E7%AC%91%E6%9D%A5-%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/</link>
+      <pubDate>Tue, 01 Mar 2022 19:10:38 +0800</pubDate>
+      
+      <guid>https://lintm.github.io/post/%E8%B4%A2%E5%AF%8C%E8%87%AA%E7%94%B1%E4%B9%8B%E8%B7%AF%E6%9D%8E%E7%AC%91%E6%9D%A5-%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/</guid>
+      <description>推荐指数：5星，阅读难度：2星 优化操作系统 这个概念，很明确，人就是一个系统，身体、器官是硬件，头脑、思维、性格、价值观是软件系统。 系统要完善</description>
+    </item>
+    
+    <item>
+      <title>《心若菩提》曹德旺著--读书笔记</title>
+      <link>https://lintm.github.io/post/%E5%BF%83%E8%8B%A5%E8%8F%A9%E6%8F%90%E6%9B%B9%E5%BE%B7%E6%97%BA%E8%91%97-%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/</link>
+      <pubDate>Mon, 28 Feb 2022 19:09:38 +0800</pubDate>
+      
+      <guid>https://lintm.github.io/post/%E5%BF%83%E8%8B%A5%E8%8F%A9%E6%8F%90%E6%9B%B9%E5%BE%B7%E6%97%BA%E8%91%97-%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/</guid>
+      <description>**推荐指数：5星，阅读难度：1星 原本计划春节读几本书，虽然2022年的春节外出少，放假时间也不短，可惜并没有落实读书这件事。 回到公司，快速</description>
+    </item>
+    
+    <item>
+      <title>Markdown学习</title>
+      <link>https://lintm.github.io/post/markdown/</link>
+      <pubDate>Sun, 27 Feb 2022 08:36:34 +0800</pubDate>
+      
+      <guid>https://lintm.github.io/post/markdown/</guid>
+      <description>Markdown学习 说明：实现编辑样式的方法有三种： 代码输入 快捷键实现 菜单操作 1.代码块： 1 2 3 4 // 代码块语法 ```java ```shell 快捷键：Ctrl + Shift + K 1</description>
+    </item>
+    
+    <item>
+      <title>关于</title>
+      <link>https://lintm.github.io/about/</link>
+      <pubDate>Sat, 26 Feb 2022 21:38:52 +0800</pubDate>
+      
+      <guid>https://lintm.github.io/about/</guid>
+      <description>欢迎来到我的小站呀，很高兴遇见你！🤝 🏠 关于本站 👨‍💻 博主是谁 毕业于985 工作于HW、网宿 目前在创业 在这里纪录生活、工作的点滴，与志同道合的人</description>
+    </item>
+    
+    <item>
+      <title>Gridea&#43;github构建博客【基础】</title>
+      <link>https://lintm.github.io/post/gridea&#43;github%E6%9E%84%E5%BB%BA%E5%8D%9A%E5%AE%A2%E5%9F%BA%E7%A1%80/</link>
+      <pubDate>Sat, 26 Feb 2022 21:34:54 +0800</pubDate>
+      
+      <guid>https://lintm.github.io/post/gridea&#43;github%E6%9E%84%E5%BB%BA%E5%8D%9A%E5%AE%A2%E5%9F%BA%E7%A1%80/</guid>
+      <description>总结： 优点：配置简单，容易上手； 缺点：很久没有更新，软件不稳定；文章生成不稳定，可能不会及时更新，有bug；v0.9.2第一次使用不能保存，</description>
+    </item>
+    
+    <item>
+      <title>为什么会有这个博客</title>
+      <link>https://lintm.github.io/post/%E4%B8%BA%E4%BB%80%E4%B9%88%E4%BC%9A%E6%9C%89%E8%BF%99%E4%B8%AA%E5%8D%9A%E5%AE%A2/</link>
+      <pubDate>Sat, 26 Feb 2022 21:26:08 +0800</pubDate>
+      
+      <guid>https://lintm.github.io/post/%E4%B8%BA%E4%BB%80%E4%B9%88%E4%BC%9A%E6%9C%89%E8%BF%99%E4%B8%AA%E5%8D%9A%E5%AE%A2/</guid>
+      <description>缘由： 某日，看到采用下载工具可以高速下载百度网盘，实践后简单写成网页，发布在jianshu上面，随手分享给两个好友，不一会，好友反馈访问40</description>
+    </item>
+    
+    <item>
+      <title>构建这个博客【hugo】</title>
+      <link>https://lintm.github.io/post/%E6%9E%84%E5%BB%BA%E8%BF%99%E4%B8%AA%E5%8D%9A%E5%AE%A2hugo/</link>
+      <pubDate>Sat, 26 Feb 2022 18:32:41 +0800</pubDate>
+      
+      <guid>https://lintm.github.io/post/%E6%9E%84%E5%BB%BA%E8%BF%99%E4%B8%AA%E5%8D%9A%E5%AE%A2hugo/</guid>
+      <description>梳理几个知识点 此类博客大部分是静态网页，采用hugo生成的都是index.html，github采用【账号名.github.io】创建的仓库</description>
+    </item>
+    
+    <item>
+      <title>百度网盘高速下载技巧</title>
+      <link>https://lintm.github.io/post/%E7%99%BE%E5%BA%A6%E7%BD%91%E7%9B%98%E9%AB%98%E9%80%9F%E4%B8%8B%E8%BD%BD%E6%8A%80%E5%B7%A7/</link>
+      <pubDate>Sat, 26 Feb 2022 18:32:41 +0800</pubDate>
+      
+      <guid>https://lintm.github.io/post/%E7%99%BE%E5%BA%A6%E7%BD%91%E7%9B%98%E9%AB%98%E9%80%9F%E4%B8%8B%E8%BD%BD%E6%8A%80%E5%B7%A7/</guid>
+      <description>1.问题 百度网盘下载200k的限速，深受其害已久，采用本方法进行下载，速度起飞！ 2.chrome浏览器 + 百度网盘简易下载助手Greasy Fork+NeatDM 说</description>
+    </item>
+    
+  </channel>
+</rss>

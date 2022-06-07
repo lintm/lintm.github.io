@@ -1,0 +1,698 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>Linux常用命令 - 小小林者</title>
+  <meta name="renderer" content="webkit" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+<meta name="theme-color" content="#f8f5ec" />
+<meta name="msapplication-navbutton-color" content="#f8f5ec">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="#f8f5ec">
+
+
+<meta name="author" content="小小林者" /><meta name="description" content="Linux常用命令 文件目录指令 pwd：查看当前工作目录的绝对路径 ls：显示当前目录所有文件 基本语法：ls [选项] [目录或文件] 常见选项： -a" /><meta name="keywords" content="linux, 命令" />
+
+
+
+
+
+
+<meta name="generator" content="Hugo 0.92.2 with theme even" />
+
+
+<link rel="canonical" href="https://lintm.github.io/post/linux%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/" />
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/manifest.json">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+
+
+
+<link href="/sass/main.min.f92fd13721ddf72129410fd8250e73152cc6f2438082b6c0208dc24ee7c13fc4.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.1.20/dist/jquery.fancybox.min.css" integrity="sha256-7TyXnr2YU040zfSP+rEcz29ggW4j56/ujTPwjMzyqFY=" crossorigin="anonymous">
+
+
+<meta property="og:title" content="Linux常用命令" />
+<meta property="og:description" content="Linux常用命令 文件目录指令 pwd：查看当前工作目录的绝对路径 ls：显示当前目录所有文件 基本语法：ls [选项] [目录或文件] 常见选项： -a" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://lintm.github.io/post/linux%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/" /><meta property="article:section" content="post" />
+<meta property="article:published_time" content="2022-03-26T21:26:08+08:00" />
+<meta property="article:modified_time" content="2022-03-27T08:36:34+08:00" />
+
+<meta itemprop="name" content="Linux常用命令">
+<meta itemprop="description" content="Linux常用命令 文件目录指令 pwd：查看当前工作目录的绝对路径 ls：显示当前目录所有文件 基本语法：ls [选项] [目录或文件] 常见选项： -a"><meta itemprop="datePublished" content="2022-03-26T21:26:08+08:00" />
+<meta itemprop="dateModified" content="2022-03-27T08:36:34+08:00" />
+<meta itemprop="wordCount" content="3915">
+<meta itemprop="keywords" content="linux,命令," /><meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Linux常用命令"/>
+<meta name="twitter:description" content="Linux常用命令 文件目录指令 pwd：查看当前工作目录的绝对路径 ls：显示当前目录所有文件 基本语法：ls [选项] [目录或文件] 常见选项： -a"/>
+
+<!--[if lte IE 9]>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
+<![endif]-->
+
+<!--[if lt IE 9]>
+  <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+<![endif]-->
+
+</head>
+<body>
+  <div id="mobile-navbar" class="mobile-navbar">
+  <div class="mobile-header-logo">
+    <a href="/" class="logo">小小林者</a>
+  </div>
+  <div class="mobile-navbar-icon">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+</div>
+<nav id="mobile-menu" class="mobile-menu slideout-menu">
+  <ul class="mobile-menu-list">
+    <a href="/">
+        <li class="mobile-menu-item">首页</li>
+      </a><a href="/post/">
+        <li class="mobile-menu-item">档案</li>
+      </a><a href="/tags/">
+        <li class="mobile-menu-item">标签</li>
+      </a><a href="/categories/">
+        <li class="mobile-menu-item">分类</li>
+      </a><a href="/about/">
+        <li class="mobile-menu-item">关于</li>
+      </a>
+  </ul>
+
+  
+
+
+</nav>
+
+  <div class="container" id="mobile-panel">
+    <header id="header" class="header">
+        <div class="logo-wrapper">
+  <a href="/" class="logo">小小林者</a>
+</div>
+
+
+
+
+
+<nav class="site-navbar">
+  <ul id="menu" class="menu">
+    <li class="menu-item">
+        <a class="menu-item-link" href="/">首页</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/post/">档案</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/tags/">标签</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/categories/">分类</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/about/">关于</a>
+      </li>
+  </ul>
+</nav>
+
+    </header>
+
+    <main id="main" class="main">
+      <div class="content-wrapper">
+        <div id="content" class="content">
+          <article class="post">
+    
+    <header class="post-header">
+      <h1 class="post-title">Linux常用命令</h1>
+
+      <div class="post-meta">
+        <span class="post-time"> 2022-03-26 </span>
+        <div class="post-category">
+            <a href="/categories/%E6%8A%80%E6%9C%AF/"> 技术 </a>
+            </div>
+          <span class="more-meta"> 约 3915 字 </span>
+          <span class="more-meta"> 预计阅读 8 分钟 </span>
+        
+      </div>
+    </header>
+
+    <div class="post-toc" id="post-toc">
+  <h2 class="post-toc-title">文章目录</h2>
+  <div class="post-toc-content always-active">
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#linux常用命令">Linux常用命令</a>
+      <ul>
+        <li><a href="#文件目录指令">文件目录指令</a></li>
+        <li><a href="#时间日期类">时间日期类</a></li>
+        <li><a href="#搜索查找类">搜索查找类</a></li>
+        <li><a href="#压缩和解压缩类">压缩和解压缩类</a></li>
+        <li><a href="#系统管理">系统管理</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+  </div>
+</div>
+    <div class="post-content">
+      <h1 id="linux常用命令">Linux常用命令</h1>
+<h2 id="文件目录指令">文件目录指令</h2>
+<p><code>pwd</code>：查看当前工作目录的绝对路径</p>
+<p><code>ls</code>：显示当前目录所有文件</p>
+<ul>
+<li>
+<p>基本语法：ls [选项] [目录或文件]</p>
+</li>
+<li>
+<p>常见选项：</p>
+<p>-a：显示当前目录所有的文件，包括隐藏文件</p>
+<p>-l：以列表的方式显示信息</p>
+</li>
+<li>
+<p>实例：</p>
+<p>ls：默认显示所有文件</p>
+<p>ls -a：显示当前目录所有的文件，包括隐藏文件</p>
+<p>ls -al：以列表的方式显示所有文件包括隐藏文件</p>
+</li>
+</ul>
+<p><code>cd</code>：切换到指定目录</p>
+<ul>
+<li>
+<p>基本语法：cd [目录]</p>
+</li>
+<li>
+<p>实例：</p>
+<p>cd ~ ：返回家目录</p>
+<p>cd .. ：回到当前目录的上一级目录</p>
+<p>cd / ：返回根目录</p>
+<p>cd /opt/java/jar：跳转到/opt/java/jar目录</p>
+</li>
+</ul>
+<p><code>mkdir</code>：新建目录</p>
+<ul>
+<li>
+<p>基本语法：mkdir [选项] 目录名</p>
+</li>
+<li>
+<p>常用选项：</p>
+<p>-p：创建多级目录</p>
+</li>
+<li>
+<p>实例：</p>
+<p>mkdir /home/dog：创建一个目录</p>
+<p>mkdir -p /home/ainal/tiger：创建多级目录</p>
+</li>
+</ul>
+<p><code>touch</code>：创建一个空文件</p>
+<ul>
+<li>
+<p>基本语法：touch 文件名称</p>
+</li>
+<li>
+<p>实例：</p>
+<p>touch test.txt：创建一个空文件test.txt</p>
+<p>touch a.txt b.txt：一次性创建两个空文件a.txt和b.txt</p>
+</li>
+</ul>
+<p><code>cp</code>：拷贝文件到指定目录</p>
+<ul>
+<li>
+<p>基本语法：cp [选项] source dest</p>
+</li>
+<li>
+<p>常用选项：</p>
+<p>-r：递归复制整个文件夹</p>
+</li>
+<li>
+<p>实例：</p>
+<p>cp /home/a.txt /home/b：将home目录下的a.txt拷贝到home目录下的b目录里面。</p>
+<p>cp -r /home/dog /home/animal：将home目录下的dog文件夹及里面的内容全部拷贝到home目录下的animal目录里。</p>
+</li>
+<li>
+<p>提示：当目录下已经有和要复制过去的文件同名的文件，系统会提示是否覆盖，提示时输入y则表示覆盖，或者在cp指令前加上\表示强制覆盖。例如：\cp /home/a.txt /home/b，表示如果b中已经有a.txt，则使用复制过去的a.txt强制覆盖b中原有的a.txt。</p>
+</li>
+</ul>
+<p><code>rmdir</code>：删除空目录</p>
+<ul>
+<li>
+<p>基本语法：rmdir [选项] 要删除的空目录</p>
+</li>
+<li>
+<p>实例：</p>
+<p>rmdir /home/dog：删除home下的dog空目录</p>
+</li>
+<li>
+<p>使用细节：</p>
+<p>rmdir删除的是空目录，如果目录下有内容时无法删除，如果要删除非空目录，使用rm -rf 要删除的目录。</p>
+</li>
+</ul>
+<p><code>rm</code>：删除文件或目录</p>
+<ul>
+<li>
+<p>基本语法：rm [选项] 要删除的文件或目录</p>
+</li>
+<li>
+<p>常用选项：</p>
+<p>-r：递归删除整个文件夹</p>
+<p>-f：强制删除不提示</p>
+</li>
+<li>
+<p>示例：</p>
+<p>rm -rf /home/java：强制递归删除home文件夹下的java文件夹内的所有内容</p>
+</li>
+</ul>
+<p><code>mv</code>：移动文件或重命名</p>
+<ul>
+<li>
+<p>基本语法：</p>
+<p>mv oldNameFIle newNameFile：重命名</p>
+<p>mv source dest：移动文件，将文件从source移动到dest，若dest没有带文件名，则移动过去保留源文件名，若dest带了文件名，则表示移动并重命名。</p>
+</li>
+<li>
+<p>实例：</p>
+<p>mv a.txt b.txt：将a.txt文件重命名为b.txt</p>
+<p>mv /home/a.txt /home/a：将home目录下的a.txt文件移动到home目录下的a目录下。</p>
+<p>mv /home/a.txt /home/a/b.txt：将home目录下的a.txt文件移动到home目录下的a目录下，并重命名为b.txt</p>
+</li>
+</ul>
+<p><code>cat</code>：查看文件内容</p>
+<ul>
+<li>
+<p>基本语法：cat [选项] 要查看的文件</p>
+</li>
+<li>
+<p>常用选项：</p>
+<p>-n：显示行号</p>
+</li>
+<li>
+<p>实例：</p>
+<p>cat -n /etc/profile：查看profile文件，并显示行号</p>
+</li>
+</ul>
+<p><code>&gt;</code>覆盖和<code>&gt;&gt;</code>追加</p>
+<ul>
+<li>
+<p>基本语法：</p>
+<p>ls -l &gt; 文件：将ls显示的列表内容写入到文件中（覆盖）</p>
+<p>ls -al &raquo; 文件：将列表内容追加到文件中（追加）</p>
+<p>cat 文件1 &gt; 文件2：将文件1中的文件内容写入到文件2中（覆盖）</p>
+<p>echo “内容” &raquo; 文件：将内容写入到文件中（追加）</p>
+</li>
+<li>
+<p>提示：文件存在直接写入，不存在则新建再写入。</p>
+</li>
+</ul>
+<p><code>head</code>：查看文件的开头部分内容</p>
+<ul>
+<li>
+<p>基本语法：head 文件</p>
+</li>
+<li>
+<p>常用选项：</p>
+<p>-n：查看文件头n行内容</p>
+</li>
+<li>
+<p>示例：</p>
+<p>head -n 20 a.txt：查看a.txt前20行内容。</p>
+</li>
+</ul>
+<p><code>tail</code>：查看文件的尾部的内容</p>
+<ul>
+<li>
+<p>基本语法：tail [选项] 文件</p>
+</li>
+<li>
+<p>常用选项：</p>
+<p>-n：查看文件后n行内容</p>
+<p>-f ：实时追踪该文件的所有更新</p>
+</li>
+<li>
+<p>实例：</p>
+<p>tail -n 20 -f a.txt：查看a.txt后20行内容，并实时追踪该文件的所有更新。</p>
+</li>
+</ul>
+<p><code>history</code>：查看已经执行过历史命令，也可以执行历史指令</p>
+<ul>
+<li>
+<p>实例：</p>
+<p>history：显示所有执行过的历史指令</p>
+<p>history 10：显示最近执行的10个指令</p>
+<p>!99：执行编号为99的指令</p>
+</li>
+</ul>
+<h2 id="时间日期类">时间日期类</h2>
+<p><code>date</code>：显示当前日期</p>
+<ul>
+<li>
+<p>基本语法：</p>
+<p>date：显示当前时间</p>
+<p>date +%Y：显示当前年份</p>
+<p>date +%m：显示当前月份</p>
+<p>date +%d：显示当前是哪一天</p>
+<p>date “+%Y-%m-%d-%H-%M-%S”：显示年月日时分秒</p>
+<p>date -s “2020-9-22 21：21：32”：设置当前系统时间为2020-9-22 21：21：32</p>
+</li>
+</ul>
+<p><code>cal</code>：查看日历指令</p>
+<ul>
+<li>
+<p>基本语法：</p>
+<p>cal：查看当前日历</p>
+<p>cal 2020：显示2020年日历</p>
+</li>
+</ul>
+<h2 id="搜索查找类">搜索查找类</h2>
+<p><code>find</code>：从指定目录向下递归的遍历其各个子目录，将满足条件的文件或者目录显示在终端，可使用通配符：*</p>
+<ul>
+<li>
+<p>基本语法：</p>
+<p>find [搜索范围] [选项]</p>
+</li>
+<li>
+<p>常用选项：</p>
+<p>-name：按照指定的文件名查找</p>
+<p>-user：查找属于指定用户的所有文件</p>
+<p>-size：按照指定的文件大小查找文件</p>
+</li>
+<li>
+<p>实例</p>
+<p>find /home -name a.txt：在home目录下查找名称为a.txt的文件</p>
+<p>find /home -user root：在home目录下查找属于root用户的文件</p>
+<p>find / -size +20M：查找系统根目录下大于20M的文件，+大于，-小于，没有+和-就是等于。</p>
+<p>find / -name *.txt：查找系统根目录下后缀为txt的所有文件，使用通配符时需要使用转移字符 \</p>
+</li>
+</ul>
+<p><code>locate</code>：可以快速定位文件路径，locate指令利用事先建立的系统中所有文件名称及路径的locate数据库实现快速定位给定的文件。locate指令无需遍历整个文件系统，查询速度极快，为了保证查询结果的准确度，管理员必须定期更新locate时刻。</p>
+<ul>
+<li>
+<p>基本语法：locate 搜索文件</p>
+</li>
+<li>
+<p>特别说明：</p>
+<p>由于locate指令基于数据库进行查询，所以第一次运行前，必须使用updatedb指令创建locate数据库</p>
+</li>
+<li>
+<p>实例：</p>
+<p>updatedb：更新locate数据库</p>
+<p>locate a.txt：查找a.txt文件的路径</p>
+</li>
+</ul>
+<p><code>grep</code>：grep过滤查找，管道符“|”表示将前一个命令的处理结果输出传递给后面的命令处理。</p>
+<ul>
+<li>
+<p>基本语法：grep [选项] 查找内容 源文件</p>
+</li>
+<li>
+<p>常用选项：</p>
+<p>-n：显示匹配行及行号</p>
+<p>-i：忽略字母大小写</p>
+</li>
+<li>
+<p>实例</p>
+<p>cat hello.txt | grep -n yes：查找hello.txt文件中关键词yes所在的行号</p>
+</li>
+</ul>
+<h2 id="压缩和解压缩类">压缩和解压缩类</h2>
+<p><code>gzip/gunzip</code>：gzip用于压缩，gunzip用于解压，使用gzip对文件进行压缩后，不会保留源文件，同样gunzip解压后也不会保留源文件</p>
+<ul>
+<li>
+<p>基本语法：</p>
+<p>gzip 文件：压缩文件，可同时压缩多个文件</p>
+<p>gunzip 文件.gz：解压文件，可同时解压多个文件</p>
+</li>
+</ul>
+<p><code>zip/unzip</code>：zip用于压缩文件，unzip用于解压文件</p>
+<ul>
+<li>
+<p>基本语法：</p>
+<p>zip [选项] xxx.zip 文件：将文件压缩为xxx.zip</p>
+<p>unzip [选项] xxx.zip：解压xxx.zip文件</p>
+</li>
+<li>
+<p>zip常用选项：</p>
+<p>-r：递归压缩，即压缩整个目录</p>
+</li>
+<li>
+<p>unzip常用选项：</p>
+<p>-d：指定解压后文件的存放目录</p>
+</li>
+<li>
+<p>实例：</p>
+<p>zip hello.zip hello.txt：将hello.txt压缩为hello.zip，会保留源文件，压缩文件夹时需要加 -r 参数</p>
+<p>unzip -d /opt hello.zip：将hello.zip解压到/opt目录中</p>
+</li>
+</ul>
+<p><code>tar</code>：打包指令，最后打包后的文件是.tar.gz文件</p>
+<ul>
+<li>
+<p>基本语法：tar [选项] xxx.tar.gz 打包的内容</p>
+</li>
+<li>
+<p>常用选项：</p>
+<p>-c：产生.tar打包文件</p>
+<p>-v：显示详细信息</p>
+<p>-f：指定压缩后的文件名</p>
+<p>-z：打包同时压缩</p>
+<p>-x：解包.tar文件</p>
+</li>
+<li>
+<p>实例：</p>
+<p>tar -zcvf a.tar.gz a1.txt a2.txt：将a1.txt和a2.txt打包成一个a.tar.gz压缩文件</p>
+<p>tar -zcvf home.tar.gz /home/：将home目录下的所有文件打包成home.tar.gz</p>
+<p>tar -zxvf a.tar.gz：将a.tar.gz解压</p>
+<p>tar -zxvf home.tar.gz -C /opt：将home.tar.gz解压到/opt目录中，前提是解压到的目录要存在。</p>
+</li>
+</ul>
+<h2 id="系统管理">系统管理</h2>
+<p><code>ps</code>：查看进程状态</p>
+<ul>
+<li>
+<p>基本语法：ps [选项]</p>
+</li>
+<li>
+<p>常用选项：</p>
+<p>-A：列出所有进程</p>
+<p>-e：同 -A 一样的效果</p>
+<p>-f：做一个更为完整的输出</p>
+</li>
+<li>
+<p>实例：</p>
+<p>ps -ef | grep java：查找java进程</p>
+</li>
+</ul>
+<p><code>kill</code>：删除执行中的程序或工作</p>
+<ul>
+<li>
+<p>基本语法：kill [选项] 进程号</p>
+</li>
+<li>
+<p>常用选项</p>
+<p>-1：重新加载进程</p>
+<p>-9：彻底杀死进程</p>
+<p>-15：正常停止一个进程</p>
+</li>
+<li>
+<p>实例：</p>
+<p>kill -1 12345：重新加载12345号进程</p>
+<p>kill -9 12345：彻底杀死12345号进程</p>
+<p>kill -15: 12345：正常停止12345号进程</p>
+</li>
+</ul>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback">top：实时显示进程动态
+</code></pre></td></tr></table>
+</div>
+</div><ul>
+<li>
+<p>基本语法：top [选项]</p>
+</li>
+<li>
+<p>常用选项：</p>
+<p>-d : 改变显示的更新速度，或是在交谈式指令列( interactive command)按 s</p>
+<p>-q : 没有任何延迟的显示速度，如果使用者是有 superuser 的权限，则 top 将会以最高的优先序执行</p>
+<p>-c : 切换显示模式，共有两种模式，一是只显示执行档的名称，另一种是显示完整的路径与名称</p>
+<p>-S : 累积模式，会将己完成或消失的子进程 ( dead child process ) 的 CPU time 累积起来</p>
+<p>-s : 安全模式，将交谈式指令取消, 避免潜在的危机</p>
+<p>-i : 不显示任何闲置 (idle) 或无用 (zombie) 的进程</p>
+<p>-n : 更新的次数，完成后将会退出 top</p>
+<p>-b : 批次档模式，搭配 &ldquo;n&rdquo; 参数一起使用，可以用来将 top 的结果输出到档案内</p>
+</li>
+<li>
+<p>实例</p>
+<p>top：显示进程信息</p>
+<p>top -c：显示完整命令</p>
+<p>top -n 2：更新两次后终止更新显示</p>
+<p>top -d 3：更新周期为3秒</p>
+<p>top -p 12345：显示进程号为12345的进程信息</p>
+</li>
+</ul>
+<p><code>shutdown</code>：关机</p>
+<ul>
+<li>
+<p>基本语法：shutdown [选项]</p>
+</li>
+<li>
+<p>常用选项：</p>
+<p>-t seconds : 设定在几秒钟之后进行关机程序。</p>
+<p>-r : 关机后重新开机</p>
+<p>-h : 关机后停机</p>
+<p>-n : 不采用正常程序来关机，用强迫的方式杀掉所有执行中的程序后自行关机</p>
+<p>-c : 取消目前已经进行中的关机动作</p>
+</li>
+<li>
+<p>实例</p>
+<p>shutdown -h now：立即关机</p>
+<p>shutdown -h 10：10分钟后关机</p>
+<p>shutdown -r now：立即重启</p>
+</li>
+</ul>
+<p><code>free</code>：显示内存状态</p>
+<ul>
+<li>
+<p>基本语法：free [选项]</p>
+</li>
+<li>
+<p>常用选项：</p>
+<p>-b：以Byte为单位显示内存使用情况</p>
+<p>-k：以KB为单位显示内存使用情况</p>
+<p>-m：以MB为单位显示内存使用情况</p>
+<p>-t：显示内存总和列</p>
+<p>-s seconds：每隔多少秒执行一次</p>
+</li>
+<li>
+<p>实例</p>
+<p>free：显示内存使用信息</p>
+<p>free -t：以总和的形式查询内存的使用信息</p>
+<p>free -s 10：每10s 执行一次</p>
+</li>
+</ul>
+<p><code>clear</code>：清楚屏幕</p>
+<ul>
+<li>基本语法：clear</li>
+</ul>
+
+    </div>
+
+    <div class="post-copyright">
+  <p class="copyright-item">
+    <span class="item-title">文章作者</span>
+    <span class="item-content">小小林者</span>
+  </p>
+  <p class="copyright-item">
+    <span class="item-title">上次更新</span>
+    <span class="item-content">
+        2022-03-27
+        
+    </span>
+  </p>
+  
+  
+</div>
+<footer class="post-footer">
+      <div class="post-tags">
+          <a href="/tags/linux/">linux</a>
+          <a href="/tags/%E5%91%BD%E4%BB%A4/">命令</a>
+          </div>
+      <nav class="post-nav">
+        <a class="prev" href="/post/%E7%A1%85%E8%B0%B7%E9%92%A2%E9%93%81%E4%BE%A0%E5%9F%83%E9%9A%86%E9%A9%AC%E6%96%AF%E5%85%8B%E7%9A%84%E5%86%92%E9%99%A9%E4%BA%BA%E7%94%9F-%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/">
+            <i class="iconfont icon-left"></i>
+            <span class="prev-text nav-default">《硅谷钢铁侠：埃隆·马斯克的冒险人生》  读书笔记</span>
+            <span class="prev-text nav-mobile">上一篇</span>
+          </a>
+        <a class="next" href="/post/%E7%AA%81%E7%A0%B4%E7%A3%81%E9%93%BE0%E8%B5%84%E6%BA%90%E5%AE%9E%E7%8E%B0%E8%BE%83%E9%AB%98%E9%80%9F%E5%BA%A6%E4%B8%8B%E8%BD%BD/">
+            <span class="next-text nav-default">突破磁链0资源，实现较高速度下载</span>
+            <span class="next-text nav-mobile">下一篇</span>
+            <i class="iconfont icon-right"></i>
+          </a>
+      </nav>
+    </footer>
+  </article>
+        </div>
+        
+
+  
+
+  
+    <script src="https://utteranc.es/client.js"
+            repo="lintm/lintm.github.io"
+            issue-term="pathname"
+            theme="github-light"
+            crossorigin="anonymous"
+            async>
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="https://github.com/utterance">comments powered by utterances.</a></noscript>
+
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="social-links">
+      <a href="mailto:lintmuu@163.com" class="iconfont icon-email" title="email"></a>
+  <a href="https://lintm.github.io/index.xml" type="application/rss+xml" class="iconfont icon-rss" title="rss"></a>
+</div>
+
+<div class="copyright">
+  <span class="power-by">
+    由 <a class="hexo-link" href="https://gohugo.io">Hugo</a> 强力驱动
+  </span>
+  <span class="division">|</span>
+  <span class="theme-info">
+    主题 - 
+    <a class="theme-link" href="https://github.com/olOwOlo/hugo-theme-even">Even</a>
+  </span>
+
+  
+
+  <span class="copyright-year">
+    &copy; 
+    2022<span class="heart"><i class="iconfont icon-heart"></i></span><span>小小林者</span>
+  </span>
+</div>
+
+    </footer>
+	
+	
+	</div>
+  <div style="font-size: 16px;text-align:center"><a href="https://beian.miit.gov.cn" target="_blank" >闽ICP备18005488号-3</a></div>
+</header>
+
+    <div class="back-to-top" id="back-to-top">
+      <i class="iconfont icon-up"></i>
+    </div>
+  </div>
+  
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/slideout@1.0.1/dist/slideout.min.js" integrity="sha256-t+zJ/g8/KXIJMjSVQdnibt4dlaDxc9zXr/9oNPeWqdg=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.1.20/dist/jquery.fancybox.min.js" integrity="sha256-XVLffZaxoWfGUEbdzuLi7pwaUJv1cecsQJQqGLe7axY=" crossorigin="anonymous"></script>
+
+
+
+<script type="text/javascript" src="/js/main.min.c99b103c33d1539acf3025e1913697534542c4a5aa5af0ccc20475ed2863603b.js"></script>
+  <script type="text/javascript">
+    window.MathJax = {
+      tex: {
+        inlineMath: [['$','$'], ['\\(','\\)']],
+        }
+    };
+  </script>
+  <script async src="https://cdn.jsdelivr.net/npm/mathjax@3.0.5/es5/tex-mml-chtml.js" integrity="sha256-HGLuEfFcsUJGhvB8cQ8nr0gai9EucOOaIxFw7qxmd+w=" crossorigin="anonymous"></script>
+
+
+
+
+
+
+
+
+</body>
+</html>
